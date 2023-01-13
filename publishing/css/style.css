@@ -49,7 +49,7 @@ p { line-height: 22px }
     font-size: 30px;
     font-weight: 100;
     line-height: 30px;
-    margin-top: 30px;
+    margin-top: 23px;
     padding: 0;
 }
 .navbar-brand span { color: #48cfad }
@@ -61,9 +61,9 @@ p { line-height: 22px }
 .head-section .navbar-default { background-color: #fff }
 .head-section .nav li a,
 .head-section .nav li.active ul.dropdown-menu li a {
-    color: #999;
+    color: #153b0d;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 600;
     background: none;
 }
 ul.dropdown-menu { border: none }

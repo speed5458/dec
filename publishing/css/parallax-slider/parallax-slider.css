@@ -5,7 +5,7 @@
 	position: relative;
 	margin: 0 auto;
 	overflow: hidden;
-	background: transparent url(../../img/parallax-slider/images/main-bg.jpg) repeat 0% 0%;
+	background: transparent url(../../img/parallax-slider/images/main-bg3.png) repeat 0% 0%;
 	border-top: 1px solid #eee;
 	border-bottom: 1px solid #eee;
 	/*box-shadow: 0px 1px 1px rgba(0,0,0,0.2), 0px -2px 1px #fff;*/
@@ -54,7 +54,7 @@
 }
 .da-slide h2{
 	color: #fff;
-	font-size: 40px;
+	font-size: 50px;
 	/*width: 32%;*/
 	top: 60px;
 	white-space: nowrap;
@@ -64,6 +64,14 @@
 	font-weight: 700;
 	margin-left: -8%;
 }
+
+.da-slide-font1{
+	font-size: 80px;
+}
+
+
+
+
 .da-slide p{
 	width: 45%;
 	top: 260px;
