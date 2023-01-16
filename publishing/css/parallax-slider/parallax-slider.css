@@ -5,7 +5,7 @@
 	position: relative;
 	margin: 0 auto;
 	overflow: hidden;
-	background: transparent url(../../img/parallax-slider/images/main-bg3.png) repeat 0% 0%;
+	background: transparent url(../../img/parallax-slider/images/main-bg5.png) repeat 0% 0%;
 	border-top: 1px solid #eee;
 	border-bottom: 1px solid #eee;
 	/*box-shadow: 0px 1px 1px rgba(0,0,0,0.2), 0px -2px 1px #fff;*/
@@ -65,13 +65,6 @@
 	margin-left: -8%;
 }
 
-.da-slide-font1{
-	font-size: 80px;
-}
-
-
-
-
 .da-slide p{
 	width: 45%;
 	top: 260px;
@@ -102,11 +95,12 @@
 	/*text-shadow: 1px 1px 1px rgba(0,0,0,0.2);*/
 	/*border: 8px solid rgba(255,255,255,0.8);*/
 	padding: 10px 5px;
-	font-size: 18px;
+	font-size: 13px;
 	line-height: 30px;
-	width: 120px;
+	width: 170px;
 	text-align: center;
-	background: #48cfad;
+	/* background: #48cfad; */
+	background-color: #6eb12c;
 	margin-left: -8%;
 }
 .da-slide .da-link:hover{
@@ -163,7 +157,7 @@
 	height: 30px;
 	width: 30px;
 	border-radius: 50%;
-	background: #000;
+	/* background: #000; */
 	cursor: pointer;
 	z-index: 2000;
 	opacity: 0.5;

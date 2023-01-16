@@ -26,6 +26,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
     <link href="css/style-responsive.css" rel="stylesheet" />
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
@@ -287,7 +288,7 @@
         <div class="col-lg-5 col-sm-5 address">
           <section class="contact-infos">
             <h4 class="title custom-font text-black">
-              ADDRESS
+              주소
             </h4>
             <address>
               Revox
@@ -300,10 +301,10 @@
           </section>
           <section class="contact-infos">
             <h4 class="title custom-font text-black">
-              BUSINESS HOURS
+              영업시간
             </h4>
             <p>
-              Monday - Friday 8am to 4pm
+              월 - 금 8am to 17pm
               <br>
               Saturday - 7am to 6pm
               <br>
@@ -313,7 +314,7 @@
           </section>
           <section class="contact-infos">
             <h4>
-              TELEPHONE
+              연락처
             </h4>
             <p>
               <i class="icon-phone">
@@ -373,8 +374,11 @@
     <!--container end-->
 
     <!--google map start-->
-    <div class="contact-map">
-      <div id="map-canvas" style="width: 100%; height: 400px">
+    <div class="container">
+      <div id="map-canvas" style="width: 100%;">
+        <a target="_blank" href="https://map.naver.com/v5/search/%EC%95%88%EC%82%B0%20%EB%93%9C%EB%A6%BC%EC%9A%94%EC%96%91%EB%B3%B4%ED%98%B8%EC%82%AC/place/38500791?c=16.3,0,0,0,dh">
+          <img src="img/map-img2.png" alt="드림요양보호사교육원네이버" width="100%">
+        </a>
       </div>
     </div>
     <!--google map end-->
@@ -694,23 +698,23 @@
       }
                        );
 
-      //google map
-      function initialize() {
-        var myLatlng = new google.maps.LatLng(51.508742,-0.120850);
-        var mapOptions = {
-          zoom: 5,
-          center: myLatlng,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-            var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-        var marker = new google.maps.Marker({
-          position: myLatlng,
-          map: map,
-          title: 'Contact'
-        }
-                                           );
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
+      // //google map
+      // function initialize() {
+      //   var myLatlng = new google.maps.LatLng(51.508742,-0.120850);
+      //   var mapOptions = {
+      //     zoom: 5,
+      //     center: myLatlng,
+      //     mapTypeId: google.maps.MapTypeId.ROADMAP
+      //   }
+      //       var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+      //   var marker = new google.maps.Marker({
+      //     position: myLatlng,
+      //     map: map,
+      //     title: 'Contact'
+      //   }
+      //                                      );
+      // }
+      // google.maps.event.addDomListener(window, 'load', initialize);
 
 
 

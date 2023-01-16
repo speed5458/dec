@@ -1,3 +1,26 @@
 .navbar-brand img{
     width: 250px;
 }
+
+.da-slide-font1{
+	font-size: 80px;
+}
+
+#slide-img1{
+    margin-top: 80px;
+    width: 434px;
+    height: 426px;
+}
+
+#slide-img2{
+    margin-top: 150px;
+    width: 580px;
+    height: 330px;
+}
+
+#slide-img3{
+    margin-top: 180px;
+    width: 600px;
+    height: 280px;
+}
+
