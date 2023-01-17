@@ -4,6 +4,7 @@
 
 .da-slide-font1{
 	font-size: 80px;
+    
 }
 
 #slide-img1{
@@ -27,18 +28,20 @@
 #contact-h1{
     font-size: 30px;
     font-weight: 900;
-    color: #333333;
+    color: #666666;
     /* padding-left: 140px; */
     padding-top: 20px;
     padding-bottom: 5px;
     text-align: center;
 }
 
-#contact-box{
+.contact-box{
     border: 1px solid #6eb12c;
     height: 268px;
     /* padding-left: 80px; */
 }
+
+
 
 .col-lg-6 h3{
     font-size: 17px;
@@ -69,7 +72,8 @@
 }
 
 .feature-box-b{
-    color: #797979;
+    /* color: #797979; */
+    color: #6eb12c;
     font-size: 30px;
     font-weight: 900;
     text-transform: uppercase;
@@ -80,6 +84,16 @@
 .feature-box-p{
     color: #797979;
     font-size: 20px;
+}
+
+.nav-tabs-custom-a{
+    background-color: #6eb12c;
+    font-size: 20px;
+    font-weight: 800;
+    color: #666666;
+}
+.panel-body-custom{
+    border: 0px;
 }
 
 

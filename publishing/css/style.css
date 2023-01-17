@@ -175,7 +175,7 @@ ul.dropdown-menu { border: none }
 /*homepage features*/
 .feature-head { padding: 10px 0 }
 .feature-head h1 {
-    color: #797979;
+    color: #6eb12c;
     font-size: 30px;
     font-weight: 900;
     text-transform: uppercase;
@@ -324,7 +324,7 @@ ul.dropdown-menu { border: none }
 .panel-heading .nav > li.active > a,
 .panel-heading .nav > li > a:hover {
     color: #6f6f6f;
-    background: #f4f4f4;
+    background: #ffffff;
 }
 .panel-heading .nav > li:first-child.active > a,
 .panel-heading .nav > li:first-child > a:hover { }
