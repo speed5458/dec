@@ -24,3 +24,99 @@
     height: 280px;
 }
 
+#contact-h1{
+    font-size: 30px;
+    font-weight: 900;
+    color: #333333;
+    /* padding-left: 140px; */
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+#contact-box{
+    border: 1px solid #6eb12c;
+    height: 268px;
+    /* padding-left: 80px; */
+}
+
+.col-lg-6 h3{
+    font-size: 17px;
+}
+
+.col-lg-6 h3 a{
+    font-size: 30px;
+}
+
+.contact-num{
+    /* padding-left: 60px; */
+    text-align: center;
+}
+
+.contact-num a{
+    color: #6eb12c;
+    font-weight: 900;
+    font-size: 50px !important;
+}
+.email-txt2{
+    color: #6eb12c;
+    font-weight: 900;
+    font-size: 23px !important;
+    
+}
+.contact-email-h3{
+    text-align: center;
+}
+
+.feature-box-b{
+    color: #797979;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.feature-box-p{
+    color: #797979;
+    font-size: 20px;
+}
+
+
+@media (max-width:1200px){
+    #contact-box{
+        text-align: center;
+    }
+    .col-lg-6 h3 a{
+        font-size: 20px;
+    }
+    .col-lg-6 h3 a{
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    #contact-box{
+        /* padding-left: 90px !important; */
+    }
+    .col-lg-6 h3 a{
+        font-size: 20px;
+    }
+    .contact-num{
+        /* padding-left: 40px; */
+    }
+    
+}
+@media(max-width:480px){
+    #contact-box{
+        /* padding-left: 30px !important; */
+    }
+    .col-lg-6 h3 a{
+        font-size: 20px !important;
+    }
+    .col-lg-6 h3 a{
+        font-size: 18px !important;
+    }
+}
+
