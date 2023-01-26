@@ -5,7 +5,7 @@ Author: cosmic
 Website:
 */
 body {
-    color: #797979;
+    color: #666666;
     font-family: 'Lato', sans-serif;
     /*font-family: 'Open Sans', sans-serif;*/
     padding: 0px !important;
@@ -791,7 +791,7 @@ ul.about-flex-slides { margin-left: 0 }
     width: 15px;
 }
 .breadcrumbs {
-    background: #34495e;
+    background: #76B042;
     color: #fff;
     padding: 30px 0;
     margin-bottom: 40px;
@@ -1392,16 +1392,18 @@ ul.page-footer-list li i { padding-right: 10px }
     font-size: 25px;
 }
 .h-service {
-    border: 1px solid #eee;
+    border: 1px solid #6eb12c;
     margin-bottom: 25px;
 }
 #home-services .h-service-content h3 {
     padding-top: 40px;
+    font-weight: 600;
     text-align: center;
+    color: #6eb12c;
 }
 .h-service-content p {
     text-align: center;
-    padding: 5px 21px 20px;
+    padding: 5px 21px;
 }
 .h-service-content a {
     color: #e74c3c;
@@ -1456,22 +1458,29 @@ ul.page-footer-list li i { padding-right: 10px }
     text-transform: uppercase;
     font-weight: 400;
     margin-bottom: 30px;
+    margin-top: 0px;
 }
-.property hr { border-color: #dfdcdf }
-.property i { color: #48cfad }
+.property hr { border-color: #f57613 }
+.property i { color: #f57613 }
 a.btn-purchase {
-    background: #475168;
+    font-size: 18px;
+    width: 170px;
+    height: 50px;
+    background: #f57613;
     color: #fff;
-    text-transform: uppercase;
+    align-items: center;
     border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px padding: 20px 40px;
-    margin-top: 30px;
+    -webkit-border-radius: 0px;
+    text-align: center;
+    padding-top: 10px;
+    float: right;
+    /* -moz-border-radius: 4px; padding: 20px 40px;  */
+    /* margin-top: 30px;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
-    transition: all .3s ease;
+    transition: all .3s ease; */
 }
 a.btn-purchase:hover,
 a.btn-purchase:focus {
