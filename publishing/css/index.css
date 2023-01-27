@@ -135,7 +135,43 @@
     text-align: right;
 }
 
+/* 제휴사 Custom */
+.custom-hr{
+    background-color: #76b042;
+    margin-bottom: 15px;
+}
+.partner-title{
+    text-align: center;
+}
+.partner-btn{
+    text-align:center !important ;
+}
 
+/* footer셋팅 */
+.footer-fonts{
+    font-weight: 500;
+}
+
+.footer-set1{
+    margin-bottom: 20px !important;
+}
+.footer-set2{
+    margin-bottom: 5px !important;
+}
+
+.copyright-detail-fonts{
+    font-size: 25px;
+    margin-left: 30px;
+    padding-top: 17px;
+    font-weight: 700;
+}
+.footer-btn-detail{
+    background-color: #f37020 !important;
+    color: #FFFFFF !important;
+    margin-left: auto;
+    border-radius: 30px;
+    padding: 10px 33px;
+}
 
 @media (max-width:1200px){
     #contact-box{

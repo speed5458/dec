@@ -1,4 +1,4 @@
-.hcc-people-table-title1{
+.detail-table-title1{
     text-align: center;
     font-size: 30px;
     margin-top: 30px;
@@ -7,38 +7,57 @@
     font-weight: 500;
     color: #3C3D3F;
 }
-.hcc-people-table-sub1{
+.detail-table-sub1{
     text-align: right;
     font-size: 15px;
     color: #707070;
 }
 /* 재가급여월 한도액 테이블셋팅 */
-.hcc-table-set1{
+.detail-set1{
     text-align: center;
     font-family: 'NanumSquare', sans-serif !important;
     font-weight: 400;
     font-size: 18px;
-    
+    border: 1px solid #76B042 !important;
 
 }
-.hcc-table-set1 th{
+.detail-set1 th{
     text-align: center;
     font-family: 'NanumSquare', sans-serif !important;
     font-weight: 400;
-    height: 51px;
+    height: 80px;
     vertical-align: inherit !important;
     background-color: #76B042;
     color: #FFFFFF;
     
 }
 
-.hcc-table-set1 tr td:nth-child(1){
+.detail-set1 tr td:nth-child(1){
     color: #76B042;
-    
 }
 
-.hcc-people-bottom{
+.detail-bottom-set1{
     margin-bottom: 100px;
 }
+.table-bordered>tbody>tr>td{
+    border: 1px solid #76B042;
+}
+
+/* 테이블 좌측, 우측 하단 실선 셋팅 */
+.table-bordered{
+    border-right: hidden!important;
+    border-left: hidden !important;
+    border-bottom: 2px solid #76B042 !important;
+}
+
+/* Row셋팅 */
+.table tr {
+    text-align: center !important;
+    height: 70px;
+}
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
 
 
