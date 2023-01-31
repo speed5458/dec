@@ -172,6 +172,14 @@
     border-radius: 30px;
     padding: 10px 33px;
 }
+.footer-img-set1{
+    text-align: right;
+}
+.footer-img-set2{
+    width: 350px;
+    height: 70px;
+    margin-top: 50px;
+}
 
 @media (max-width:1200px){
     #contact-box{

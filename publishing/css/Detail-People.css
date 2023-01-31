@@ -58,4 +58,10 @@
     vertical-align: middle;
 }
 
+/* 소개글 CSS */
+.introduce-p-set1{
+    font-size: 20px;
+    text-align: center;
+    color: #76B042;
+}
 
