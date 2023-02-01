@@ -5,4 +5,120 @@
     text-align: center;
     color: #76B042;
 }
+.main-box{
+    border: 1px solid #666666 ;
+    height: 30px;
+    border-radius: 5px;
+    height: 450px;
+}
 
+.main-txt{
+    background-color: #76B042;
+    color:  #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px;
+    
+}
+.main-box-set{
+    padding: 40px;
+}
+
+/* 상담등록 폼 */
+.consult-form{
+    background-color: #f8f8f8
+}
+.btn-consult{
+    width: 100% !important;
+    border-radius: 5px !important;
+}
+.consult-table-box1{
+    padding: 10px;
+}
+.consult-table-set1{
+    width: 100%;
+    height: 100%;
+}
+.consult-table-set1 tr td input{
+    border: 0.5px solid #666666;
+    background-color: #ffffff;
+    padding: 6px;
+    padding: 10px;
+    width: 100% !important;
+}
+.consult-table-set1 tr td textarea{
+    border: 0.5px solid #666666;
+    background-color: #ffffff;
+    padding: 6px;
+    padding: 10px;
+    width: 100% !important;
+    min-height: 215px;
+}
+
+.consult-table-set1 tr td:nth-child(1){
+    color: #333333;
+    width: 20%;
+    text-align: center !important;
+}
+
+.desc-textarea{
+    padding-top: 15px !important;
+    vertical-align: text-top;
+}
+
+.consult-table-set1 tr td{
+    padding: 10px;
+}
+
+/* 온라인상담 정보표시 */
+.consult-info-box-dtl{
+    border: 1px solid #76B042 ;
+    min-height: 185px;
+    border-radius: 5px;
+    min-width: 340px;
+    margin: 15px;
+}
+.consult-info-box-title{
+    background-color: #76B042;
+    color:  #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 18px;
+    font-size: 18px;
+    width: 80%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.consult-contents-box{
+    text-align: -webkit-center;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* 영업시간 테이블 셋팅 */
+.consult-info-box-table table{
+    color: #76B042;
+}
+.consult-info-box-table table tr td{
+    padding: 5px;
+}
+/* 연락처 셋팅 */
+.consult-contents-box p{
+    
+    text-align: left;
+    color: #76B042;
+}
+
+.info-number-box{
+    margin-top: 15px;
+    width: 80%;
+}
+
+.info-address-box{
+    padding-left: 18px;
+    margin-top: 15px;
+    width: 90%;
+}
