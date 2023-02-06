@@ -1,3 +1,15 @@
+.header-popup{
+    background-color: #76b042;
+    height: 150px;
+    font-size: 50px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.footer-btn-detail a{
+    color: #FFFFFF;
+}ㅠ
 .navbar-brand img{
     width: 250px;
 }
