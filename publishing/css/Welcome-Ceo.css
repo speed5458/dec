@@ -8,6 +8,9 @@
     src: url('../fonts/NanumPen.ttf') format('truetype');
 }
 
+.topmenu-set li a{
+    color: #ffffff !important;
+}
 body{
     font-family: 'NanumSquare', sans-serif !important;
 }

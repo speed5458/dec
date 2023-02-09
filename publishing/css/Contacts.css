@@ -1,4 +1,7 @@
 
+.topmenu-set li a{
+    color: #ffffff !important;
+}
 /* 소개글 CSS */
 .counsulting-p-set1{
     font-size: 25px;
@@ -54,7 +57,7 @@
 /* 달력 */
 .ico-set2{
     color: #76B042;
-    font-size: 80px;
+    font-size: 65px;
 }
 /* 버스 */
 .ico-set3{
@@ -69,6 +72,7 @@
 .ico-box{
     text-align: center;
     width: 20%;
+    padding-top: 13px;
 }
 
 .contact-info-dtl-box{

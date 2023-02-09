@@ -38,7 +38,9 @@
 
     <link rel="stylesheet" type="text/css" href="css/parallax-slider/parallax-slider.css" />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <script src="js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="js/parallax-slider/modernizr.custom.28468.js">
+    
     </script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
@@ -51,12 +53,44 @@
   </head>
 
   <body>
-    <div class="header-popup">
-      안녕하세요
-    </div>
+    
     <!--header start-->
     <header class="head-section">
-      <div class="navbar navbar-default navbar-static-top container">
+      <div class="header-popup popup-wide">
+        <div class="col-lg-12 container">
+            <div class="copyright top-banner-box">
+              <p class="copyright-detail-fonts">드림요양보호사교육원이궁금하시다면 온라인 상담신청하세요.</p>
+              <button class="btn btn-default btn-lg top-popup-btn"><a href="Online-Consulting.html">상담예약하기</a></button>
+              <a onclick="popup_close();" class="popup-close">X</a>
+            </div>
+        </div>
+        
+      </div>
+
+      <div class="header-popup popup-small">
+        <div class="col-lg-12">
+            <div class="copyright top-banner-box">
+              <p class="copyright-detail-fonts popup-small-fonts">드림요양보호사교육원이 궁금하시다면 온라인 상담신청하세요.</p>
+              <a onclick="popup_close();" class="popup-close small-popup-close">X</a>
+            </div>
+        </div>
+        <button class="btn btn-default btn-lg top-popup-btn small-popup-btn"><a href="Online-Consulting.html">상담예약하기</a></button>
+      </div>
+
+      <div class="header-popup popup-small2">
+        <div class="col-lg-12">
+            <div class="copyright top-banner-box">
+              <div>드림요양보호사교육원이 <br>궁금하시다면<br>온라인 상담신청하세요.</div>
+              <a onclick="popup_close();" class="popup-close small-popup-close2">X</a>
+            </div>
+        </div>
+        <button class="btn btn-default btn-lg top-popup-btn small-popup-btn"><a href="Online-Consulting.html">상담예약하기</a></button>
+      </div>
+
+
+
+
+      <div class="navbar navbar-default navbar-static-top container custom-nav">
           <div class="navbar-header">
               <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
                 <span class="icon-bar"></span>
@@ -80,73 +114,24 @@
                           <li>
                             <a href="Contacts.html">오시는길</a>
                           </li>
-                          <li>
-                            <a href="Introduce-Card-Local.html">국가자격증취득-내국인</a>
-                          </li>
-                          <li>
-                            <a href="Introduce-Card-Foreigner.html">국가자격증취득-외국인</a>
-                          </li>
-                          <li class="dropdown-submenu">
-                            <a href="#" tabindex="-1">국가자격증취득</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="Introduce-Card-Local.html">내국인</a>
-                                </li>
-                                <li>
-                                    <a href="Introduce-Card-Foreigner.html">외국인</a>
-                                </li>
-                            </ul>
-                        </li>
-                          <li>
-                              <a href="index1.html">Home Seq-slider1</a>
-                          </li>
-                          <li>
-                              <a href="index2.html">Home Seq-slider2</a>
-                          </li>
+                         
                       </ul>
                   </li>
                   <li class="dropdown">
                       <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
-                      "dropdown" data-toggle="dropdown" href="#">교육신청 <i class="fa fa-angle-down"></i>
+                      "dropdown" data-toggle="dropdown" href="#">교육과정안내 <i class="fa fa-angle-down"></i>
                       </a>
                       <ul class="dropdown-menu">
                           <li>
-                              <a href="typography.html">Typography</a>
+                            <a href="Detail-Academy.html">국가자격증취득-교육안내</a>
                           </li>
                           <li>
-                              <a href="button.html">Buttons</a>
+                            <a href="Introduce-Card-Local.html">국민내일배움카드-내국인</a>
                           </li>
                           <li>
-                              <a href="form.html">Form</a>
+                            <a href="Introduce-Card-Foreigner.html">국민내일배움카드-외국인</a>
                           </li>
-                          <li>
-                              <a href="table.html">Table</a>
-                          </li>
-                          <li class="dropdown-submenu">
-                              <a href="#" tabindex="-1">More options</a>
-                              <ul class="dropdown-menu">
-                                  <li>
-                                      <a href="#" tabindex="-1">Second level</a>
-                                  </li>
-                                  <li class="dropdown-submenu">
-                                      <a href="#">Even More..</a>
-                                      <ul class="dropdown-menu">
-                                          <li>
-                                              <a href="#">3rd level</a>
-                                          </li>
-                                          <li>
-                                              <a href="#">3rd level</a>
-                                          </li>
-                                      </ul>
-                                  </li>
-                                  <li>
-                                      <a href="#">Second level</a>
-                                  </li>
-                                  <li>
-                                      <a href="#">Second level</a>
-                                  </li>
-                              </ul>
-                          </li>
+                          
                       </ul>
                   </li>
                   <li class="dropdown">
@@ -160,45 +145,7 @@
                           <li>
                               <a href="Detail-Bath.html">방문목욕서비스</a>
                           </li>
-                          <li>
-                              <a href="about.html">About</a>
-                          </li>
-                          <li>
-                              <a href="404.html">404 page</a>
-                          </li>
-                          <li>
-                              <a href="career.html">career</a>
-                          </li>
-                          <li>
-                              <a href="login.html">Login</a>
-                          </li>
-                          <li>
-                              <a href="registration.html">Registration</a>
-                          </li>
-                          <li>
-                              <a href="faq.html">FAQ</a>
-                          </li>
-                          <li class="dropdown-submenu">
-                              <a href="#" tabindex="-1">Pricing table</a>
-                              <ul class="dropdown-menu">
-                                  <li class="dropdown-submenu"></li>
-                                  <li>
-                                      <a href="price-table-one.html">Pricing table one</a>
-                                  </li>
-                                  <li>
-                                      <a href="price-table-two.html">Pricing table two</a>
-                                  </li>
-                              </ul>
-                          </li>
-                          <li>
-                              <a href="service.html">Service</a>
-                          </li>
-                          <li>
-                              <a href="terms.html">Terms & Condition</a>
-                          </li>
-                          <li>
-                              <a href="privacy.html">Privacy policy</a>
-                          </li>
+                         
                       </ul>
                   </li>
                   <li class="dropdown">
@@ -207,42 +154,17 @@
                       </a>
                       <ul class="dropdown-menu">
                           <li>
-                              <a href="portfolio-3-col.html">Portfolio 3 column</a>
+                            <a href="photo.html">활동갤러리</a>
                           </li>
-                          <li>
-                              <a href="portfolio-4-col.html">Portfolio 4 column</a>
-                          </li>
-                          <li>
-                              <a href="portfolio-single-image.html">Portfolio Single Image</a>
-                          </li>
-                          <li>
-                              <a href="portfolio-single-video.html">Portfolio Single Video</a>
+                            <li>
+                              <a href="news.html">뉴스</a>
                           </li>
                       </ul>
                   </li>
-                  <li class="dropdown">
-                      <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
-                      "dropdown" data-toggle="dropdown" href="#">요양보호사 구인/구직 <i class="fa fa-angle-down"></i>
-                      </a>
-                      <ul class="dropdown-menu">
-                          <li>
-                              <a href="blog.html">Blog</a>
-                          </li>
-                          <li>
-                              <a href="blog-two-col.html">Blog two column</a>
-                          </li>
-                          <li>
-                              <a href="blog-detail.html">Blog Single Image</a>
-                          </li>
-                          <li>
-                              <a href="blog-detail-video.html">Blog single video</a>
-                          </li>
-                      </ul>
-                  </li>
+                  
                   <li>
                       <a href="Online-Consulting.html">온라인상담</a>
                   </li>
-                  <li><input class="form-control search" placeholder=" Search" type="text"></li>
               </ul>
           </div>
       </div>
@@ -485,11 +407,6 @@
                     최신뉴스
                   </a>
                 </li>
-                <li>
-                  <a class="nav-tabs-custom-a" data-toggle="tab" href="#events">
-                    공지사항
-                  </a>
-                </li>
                 <li class="">
                   <a class="nav-tabs-custom-a" data-toggle="tab" href="#notice-board">
                     상담안내
@@ -505,7 +422,7 @@
                       <img src="img/news/news-img1.jpeg" alt="결혼기념선행">
                     </a>
                     <div class="media-body b-btm">
-                      <a href="http://www.incheonilbo.com/news/articleView.html?idxno=1128552" class=" p-head" target="_blank">
+                      <a href="news.html" class=" p-head" target="_blank">
                         딸 결혼 기념 따뜻한 선행…안산 취약층에 성금
                       </a>
                       <p>
@@ -518,12 +435,12 @@
                       <img src="img/news/news-img2.jpeg" alt="안산시여성상·양성평등">
                     </a>
                     <div class="media-body b-btm">
-                      <a href="http://www.todayansan.co.kr/news/articleView.html?idxno=18781" class=" p-head" target="_blank">
+                      <a href="news.html" class=" p-head" target="_blank">
                         안산시여성상·양성평등 유공 시상
                       </a>
                       <p>
                         안산시는 6일 여성권익을 높이고 양성평등 사회조성에 기여한 여성 시민 10명을 선발해 시상했다.
-올해로 35번째를 맞은 안산시여성상은......
+                        올해로 35번째를 맞은 안산시여성상은......
                       </p>
                     </div>
                   </article>
@@ -532,71 +449,22 @@
                       <img src="img/news/news-img3.jpeg" alt="목욕서비스시작">
                     </a>
                     <div class="media-body b-btm">
-                      <a href="http://www.todayansan.co.kr/news/articleView.html?idxno=17399" class=" p-head" target="_blank">
+                      <a href="news.html" class=" p-head" target="_blank">
                         드림재가복지센터-고잔16단지 LH주거행복지원센터, 목욕서비스 시작
                       </a>
                       <p>
                         드림재가복지센터(대표 정의숙)와 안산고잔16단지 LH주거행복지원센터(센터장 홍정화)가 업무협약을 체결하고 어르신들의 ....
                       </p>
                     </div>
-                  </article>
-                  <div class="news-more-btn">
-                    <a href="#" class="btn btn-info btn-sm da-link">
-                      더보기&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp》
-                    </a>
-                  </div>
-                </div>
-                <div id="events" class="tab-pane fade">
-                  <article class="media">
-                    <a class="pull-left thumb p-thumb">
-                      <!--image goes here-->
-                    </a>
-                    <div class="media-body b-btm">
-                      <a href="#" class="cmt-head">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <div class="news-more-btn">
+                      <a href="news.html" class="btn btn-info btn-sm da-link">
+                        더보기&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp》
                       </a>
-                      <p>
-                        <i class="fa fa-time">
-                        </i>
-                        1 hours ago
-                      </p>
                     </div>
                   </article>
-                  <article class="media">
-                    <a class="pull-left thumb p-thumb">
-                      <!--image goes here-->
-                    </a>
-                    <div class="media-body b-btm">
-                      <a href="#" class="cmt-head">
-                        Nulla vel metus scelerisque ante sollicitudin commodo
-                      </a>
-                      <p>
-
-                        <i class="fa fa-time">
-                        </i>
-                        23 mins ago
-                      </p>
-                    </div>
-                  </article>
-                  <article class="media">
-                    <a class="pull-left thumb p-thumb">
-                      <!--image goes here-->
-                    </a>
-                    <div class="media-body b-btm">
-                      <a href="#" class="cmt-head">
-                        Donec lacinia congue felis in faucibus.
-                      </a>
-                      <p>
-
-                        <i class="fa fa-time">
-                        </i>
-                        15 mins ago
-                      </p>
-                    </div>
-                  </article>
+                  
                 </div>
                 <div id="notice-board" class="tab-pane fade">
-                  
                   <h2>월 ~ 금 - 8am to 17pm</h2>
                   <h2>토요일 - 9am to 13pm</h2>
                   <h2>일요일 - Closed</h2>
@@ -617,13 +485,12 @@
         <div class="row">
           <div class="col-lg-12 recent">
             <h3 class="recent-work">
-              Recent Work
+              드림 스토리
             </h3>
-            <p>Some of our work we have done earlier</p>
+            <p>드림요양보호사교육원 기수별 이수사진, 교육시설현황 및 강사진</p>
             <div id="owl-demo" class="owl-carousel owl-theme wow fadeIn">
-
               <div class="item view view-tenth">
-                <img src="img/works/img8.jpg" alt="work Image">
+                <img src="img/photo/class/18-class-img.jpg" alt="work Image">
                 <div class="mask">
                   <a href="blog-detail.html" class="info" data-toggle="tooltip" data-placement="top" title="Details">
                     <i class="fa fa-link">
@@ -632,7 +499,7 @@
                 </div>
               </div>
               <div class="item view view-tenth">
-                <img src="img/works/img9.jpg" alt="work Image">
+                <img src="img/photo/class/17-class-img.jpg" alt="work Image">
                 <div class="mask">
                   <a href="blog-detail.html" class="info" data-toggle="tooltip" data-placement="top" title="Details">
                     <i class="fa fa-link">
@@ -641,7 +508,7 @@
                 </div>
               </div>
               <div class="item view view-tenth">
-                <img src="img/works/img10.jpg" alt="work Image">
+                <img src="img/photo/class/16-class-img.jpg" alt="work Image">
                 <div class="mask">
                   <a href="blog-detail.html" class="info" data-toggle="tooltip" data-placement="top" title="Details">
                     <i class="fa fa-link">
@@ -650,7 +517,7 @@
                 </div>
               </div>
               <div class="item view view-tenth">
-                <img src="img/works/img11.jpg" alt="work Image">
+                <img src="img/photo/class/10-class-img.jpg" alt="work Image">
                 <div class="mask">
                   <a href="blog-detail.html" class="info" data-toggle="tooltip" data-placement="top" title="Details">
                     <i class="fa fa-link">
@@ -659,7 +526,7 @@
                 </div>
               </div>
               <div class="item view view-tenth">
-                <img src="img/works/img12.jpg" alt="work Image">
+                <img src="img/photo/class/9-class-img.jpg" alt="work Image">
                 <div class="mask">
                   <a href="blog-detail.html" class="info" data-toggle="tooltip" data-placement="top" title="Details">
                     <i class="fa fa-link">
@@ -668,7 +535,7 @@
                 </div>
               </div>
               <div class="item view view-tenth">
-                <img src="img/works/img13.jpg" alt="work Image">
+                <img src="img/photo/class/8-class-img.jpg" alt="work Image">
                 <div class="mask">
                   <a href="blog-detail.html" class="info" data-toggle="tooltip" data-placement="top" title="Details">
                     <i class="fa fa-link">
@@ -676,7 +543,60 @@
                   </a>
                 </div>
               </div>
-
+              <div class="item view view-tenth">
+                <img src="img/photo/class/6-class-img.jpg" alt="work Image">
+                <div class="mask">
+                  <a href="blog-detail.html" class="info" data-toggle="tooltip" data-placement="top" title="Details">
+                    <i class="fa fa-link">
+                    </i>
+                  </a>
+                </div>
+              </div>
+              <div class="item view view-tenth">
+                <img src="img/photo/class/5-class-img.jpg" alt="work Image">
+                <div class="mask">
+                  <a href="blog-detail.html" class="info" data-toggle="tooltip" data-placement="top" title="Details">
+                    <i class="fa fa-link">
+                    </i>
+                  </a>
+                </div>
+              </div>
+              <div class="item view view-tenth">
+                <img src="img/photo/class/4-class-img.jpg" alt="work Image">
+                <div class="mask">
+                  <a href="blog-detail.html" class="info" data-toggle="tooltip" data-placement="top" title="Details">
+                    <i class="fa fa-link">
+                    </i>
+                  </a>
+                </div>
+              </div>
+              <div class="item view view-tenth">
+                <img src="img/photo/class/3-class-img.jpg" alt="work Image">
+                <div class="mask">
+                  <a href="blog-detail.html" class="info" data-toggle="tooltip" data-placement="top" title="Details">
+                    <i class="fa fa-link">
+                    </i>
+                  </a>
+                </div>
+              </div>
+              <div class="item view view-tenth">
+                <img src="img/photo/class/2-class-img.jpg" alt="work Image">
+                <div class="mask">
+                  <a href="blog-detail.html" class="info" data-toggle="tooltip" data-placement="top" title="Details">
+                    <i class="fa fa-link">
+                    </i>
+                  </a>
+                </div>
+              </div>
+              <div class="item view view-tenth">
+                <img src="img/photo/class/1-class-img.jpg" alt="work Image">
+                <div class="mask">
+                  <a href="blog-detail.html" class="info" data-toggle="tooltip" data-placement="top" title="Details">
+                    <i class="fa fa-link">
+                    </i>
+                  </a>
+                </div>
+              </div>
 
             </div>
           </div>
@@ -866,21 +786,30 @@
       </div>
     </footer>
     <!-- footer end -->
-    <!--small footer start -->
-    <footer class="footer-small">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                  <div class="copyright">
-                    <img src="img/footer-img1.png" width="50px"height="50px" />
-                    <p class="copyright-detail-fonts">드림요양보호사교육원이 궁금하시다면 온라인 상담신청하세요.</p>
-                    <button class="btn btn-default btn-lg footer-btn-detail"><a href="Online-Consulting.html">상담예약하기</a></button>
-                  </div>
-                </div>
-            </div>
+
+
+    <!--footer start-->
+    <footer class="footer2">
+      <div class="container">
+        <div class="row">
+          <div class="wow fadeInUp footer-img-set1" data-wow-duration="2s" data-wow-delay=".3s">
+            <img src="img/footer-img2.png" class="footer-img-set2">
+          </div>
+
+          <div class="address wow fadeInUp footer-fonts" data-wow-duration="2s" data-wow-delay=".1s">
+              <p class="footer-set1">이용약관 ㅣ 개인정보처리방침 </p>
+              <p class="footer-set2">경기도 안산시 단원구 고잔로 102, 6층 드림요양보호사교육원</p>
+              <p class="footer-set2">M. 010·2446·9271 </p>
+              <p class="footer-set2">T. 031·505·0191 </p>
+              <p>E. dreamedu019@naver.com</p>
+          </div>
+
+          
+
         </div>
+      </div>
     </footer>
-    <!--small footer end-->
+    <!-- footer end -->
 
     <!-- js placed at the end of the document so the pages load faster
 <script src="js/jquery.js">
@@ -982,6 +911,12 @@
       new WOW().init();
 
 
+    </script>
+    <script>
+      function popup_close(){
+        $('.header-popup').css('display','none')
+
+        }
     </script>
   </body>
 </html>

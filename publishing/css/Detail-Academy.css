@@ -1,3 +1,27 @@
+@font-face {
+    font-family: 'KoPubBatangLight';
+    src: url('../fonts/KoPubBatangLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NanumPen';
+    src: url('../fonts/NanumPen.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'NanumSquareB';
+    src: url('../fonts/NanumSquareB.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'NanumSquareR';
+    src: url('../fonts/NanumSquareR.ttf') format('truetype');
+}
+.topmenu-set li a{
+    color: #ffffff !important;
+}
+
+body{
+    font-family: 'NanumSquareR', sans-serif !important;
+}
 .table-title1{
     text-align: center;
     font-size: 30px;
@@ -90,4 +114,27 @@
 .table-border-r{
     border-right: 2px solid #76B042 !important;
 }
+
+/* 소개글 CSS */
+.main-title-p{
+    padding: 40px;
+}
+.main-title-p p{
+    font-size: 30px;
+    font-weight: 900;
+    color: #76B042;
+    text-align: center !important;
+}
+.dtl-contents-box div{
+    margin-bottom: 6px;
+}
+.dtl-contents-box{
+    font-size: 20px;
+    text-align: center !important;
+}
+
+.contents1{
+    margin-bottom: 30px;
+}
+
 

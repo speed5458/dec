@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'KoPubBatangLight';
+    src: url('../fonts/KoPubBatangLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NanumPen';
+    src: url('../fonts/NanumPen.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'NanumSquareB';
+    src: url('../fonts/NanumSquareB.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'NanumSquareR';
+    src: url('../fonts/NanumSquareR.ttf') format('truetype');
+}
+.topmenu-set li a{
+    color: #ffffff !important;
+}
+
+body{
+    font-family: 'NanumSquareR';
+}
+
+.blog-img img{
+    width: 100%;
+    height: 350px;
+}
+.table2{
+    /* display: none; */
+}
+.blog-content h4{
+    border-left: 2px solid #76b042;
+}
+
+.btn.btn-primary {
+    background-color: #76b042 !important;
+}
