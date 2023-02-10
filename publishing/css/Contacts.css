@@ -47,6 +47,7 @@
     display: flex;
     margin-top: 40px;
     margin-bottom: 60px;
+    border-radius: 5px 5px 5px 5px;
 }
 
 /* 지하철 아이콘 */
@@ -142,4 +143,24 @@
     font-size: 18px;
     font-weight: 500;
     margin-right: 10px;
+}
+@media (max-width: 768px) {
+    .contact-info3{
+        display: block;
+        text-align: -webkit-center;
+    }
+    .ico-box{
+        width: 100%;
+    }
+    .contact-info3 div:nth-child(2){
+        width: 100%;
+    }
+
+}
+
+@media(max-width:360px){
+
+}
+
+@media(max-width:280px){
 }

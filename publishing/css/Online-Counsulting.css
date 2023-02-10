@@ -31,7 +31,7 @@
     
 }
 .main-box-set{
-    padding: 40px;
+    padding: 33px;
 }
 
 /* 상담등록 폼 */
@@ -87,6 +87,7 @@
     border-radius: 5px;
     min-width: 340px;
     margin: 15px;
+    max-height: 182px;
 }
 .consult-info-box-title{
     background-color: #76B042;

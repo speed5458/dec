@@ -1,3 +1,23 @@
+
+
+@font-face {
+    font-family: 'KoPubBatangLight';
+    src: url('../fonts/KoPubBatangLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NanumPen';
+    src: url('../fonts/NanumPen.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'NanumSquareB';
+    src: url('../fonts/NanumSquareB.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'NanumSquareR';
+    src: url('../fonts/NanumSquareR.ttf') format('truetype');
+}
+
 /*
 Template Name: Acme Business Template with Bootstrap 3
 Template Version: 1.0
@@ -6,7 +26,7 @@ Website:
 */
 body {
     color: #666666;
-    font-family: 'Lato', sans-serif;
+    font-family: 'NanumSquareR';
     /*font-family: 'Open Sans', sans-serif;*/
     padding: 0px !important;
     margin: 0px !important;
@@ -32,7 +52,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'NanumSquareR';
     /*font-family: 'Open Sans', sans-serif;*/
 }
 a { color: #444e67 }
@@ -48,7 +68,7 @@ p { line-height: 22px }
     color: #bcc0cd;
     font-size: 30px;
     font-weight: 100;
-    line-height: 30px;
+    line-height: 35px;
     margin-top: 23px;
     padding: 0;
 }
@@ -61,9 +81,8 @@ p { line-height: 22px }
 .head-section .navbar-default { background-color: #fff }
 .head-section .nav li a,
 .head-section .nav li.active ul.dropdown-menu li a {
-    color: #153b0d;
-    font-size: 14px;
-    font-weight: 600;
+    color: #000000;
+    font-size: 17px;
     background: none;
 }
 ul.dropdown-menu { border: none }
@@ -803,11 +822,13 @@ ul.about-flex-slides { margin-left: 0 }
 .breadcrumb li a { color: #48cfad }
 .breadcrumb li.active { color: #fff }
 .breadcrumbs h1 {
-    font-size: 24px;
+    font-size: 25px;
     font-weight: 600;
     margin: 3px 0 0;
     text-transform: uppercase;
+    color: #fff
 }
+
 /*contact*/
 .contact-map {
     margin-top: 40px;
@@ -1399,8 +1420,9 @@ ul.page-footer-list li i { padding-right: 10px }
     margin-bottom: 25px;
 }
 #home-services .h-service-content h3 {
+    font-size: 25px;
     padding-top: 40px;
-    font-weight: 600;
+    font-weight: 900;
     text-align: center;
     color: #6eb12c;
 }
@@ -1419,6 +1441,7 @@ ul.page-footer-list li i { padding-right: 10px }
 .h-service-content a:hover { color: #16a085 }
 /*recent work*/
 .recent h3{
+    font-size: 25px;
     text-align: center;
     /*margin-bottom: 20px;*/
     text-transform: uppercase;
@@ -1457,7 +1480,7 @@ ul.page-footer-list li i { padding-right: 10px }
 .gray-bg { background: #f9f9f3 }
 .property h1 {
     color: #475168;
-    font-size: 24px;
+    font-size: 25px;
     text-transform: uppercase;
     font-weight: 400;
     margin-bottom: 30px;

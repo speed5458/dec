@@ -1,5 +1,28 @@
 
+@font-face {
+    font-family: 'KoPubBatangLight';
+    src: url('../fonts/KoPubBatangLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NanumPen';
+    src: url('../fonts/NanumPen.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'NanumSquareB';
+    src: url('../fonts/NanumSquareB.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'NanumSquareR';
+    src: url('../fonts/NanumSquareR.ttf') format('truetype');
+}
+body{
+    font-family: 'NanumSquareR' !important;
+}
 /* 상단 배너 */
+.copyright{
+    padding-top: 25px;
+}
 .top-banner{
     
 }
@@ -24,28 +47,28 @@
     z-index: 10000;
 }
 .popup-close{
-    font-size: 40px;
     color: #FFFFFF;
-    margin-top: 10px;
     margin-left: auto;
+    margin-top: 10px;
 }
 .top-popup-btn{
     background-color: #f37020 !important;
     color: #FFFFFF !important;
     border-radius: 30px;
     padding: 10px 33px;
-    margin-left: 120px;
     margin-top: 10px;
+    margin-left: 50px;
 }
 .top-popup-btn a{
+    font-size: 21px;
     color: #FFFFFF !important;
 }
 .popup-wide{
     display: flex;
 }
 .copyright-detail-fonts{
-    font-size: 25px;
-    padding-left: 80px;
+    font-size: 28px;
+    padding-left: 50px;
     padding-top: 17px;
     font-weight: 700;
 }
@@ -60,10 +83,11 @@
 }
 
 .da-slide-font1{
-	font-size: 80px;
+	font-size: 85px;
 }
 .da-slide-font-common{
     font-style: normal;
+    font-family: 'NanumSquareR' !important;
 }
 
 #slide-img1{
@@ -89,16 +113,24 @@
     color: #666666;
 }
 .property-title-box{
+    font-size: 17px;
     margin-bottom: 8px;
 }
 .property-dec{
+    font-size: 14px;
     margin-left: 30px;
     margin-bottom: 20px;
     color: #666666;
 }
 
+.property-btn{
+    font-size: 14px !important;
+    width: 131px !important;
+    height: 42px !important;
+}
+
 #contact-h1{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 900;
     color: #666666;
     /* padding-left: 140px; */
@@ -114,41 +146,33 @@
     /* padding-left: 80px; */
 }
 
-
-
-.col-lg-6 h3{
-    font-size: 17px;
-    margin-top: 30px;
-}
-
-.col-lg-6 h3 a{
-    font-size: 30px;
-}
-
 .contact-num{
-    /* padding-left: 60px; */
+    font-size: 14px;
     text-align: center;
+    margin-top: 30px;
 }
 
 .contact-num a{
     color: #6eb12c;
     font-weight: 900;
-    font-size: 50px !important;
+    font-size: 57px !important;
 }
 .email-txt2{
     color: #6eb12c;
     font-weight: 900;
-    font-size: 23px !important;
+    font-size: 40px !important;
     
 }
 .contact-email-h3{
+    font-size: 14px;
     text-align: center;
 }
 
 .feature-box-b{
+    font-family: 'NanumSquareR' !important;
     /* color: #797979; */
     color: #6eb12c;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 900;
     text-transform: uppercase;
     margin-top: 40px;
@@ -157,15 +181,26 @@
 
 .feature-box-p{
     color: #797979;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .nav-tabs-custom-a{
     background-color: #6eb12c;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 800;
     color: #666666;
 }
+
+.da-link-set{
+    font-size: 14px !important;
+    margin-top: 20px;
+}
+
+.recent p{
+    font-size: 17px;
+}
+
+
 .panel-body-custom{
     border: 0px;
 }
@@ -185,7 +220,11 @@
     margin-right: 3px;
 }
 .help-subtitle{
+    font-size: 17px;
     color: #6eb12c;
+}
+.help-subtitle{
+    font-size: 17px;
 }
 
 .news-more-btn{
@@ -200,11 +239,19 @@
 .partner-title{
     text-align: center;
 }
+.partner-title h2{
+    font-size: 25px;
+}
+
+
 .partner-btn{
     text-align:center !important ;
 }
 
 /* footer셋팅 */
+.footer2{
+    display: none;
+}
 .footer-fonts{
     font-weight: 500;
 }
@@ -264,7 +311,7 @@
         font-size: 30px !important;
         padding-top: 17px;
         font-weight: 700;
-        margin-left: 30px;
+        margin-left: 9%;
     }
     .popup-small{
         min-height: 170px;
@@ -312,14 +359,15 @@
         font-size: 30px !important;
     }
     .small-popup-btn{
-        margin-right: 139px;
+        /* margin-right: 139px; */
     }
     .small-popup-close2{
         position: absolute;
-        right: 50px;
+        right: 60px;
+        top: 10px;
     }
     .top-banner-box{
-        justify-content: space-around;
+        justify-content: center;
     }
     
 }
@@ -348,6 +396,13 @@
     }
     .copyright{
         padding-top: 0;
+    }
+    .popup-close{
+        margin-top: 10px;
+        top: 0;
+    }
+    .top-banner-box{
+        align-items: initial;
     }
     
 }

@@ -54,13 +54,12 @@
 }
 .da-slide h2{
 	color: #fff;
-	font-size: 50px;
+	font-size: 57px;
 	/*width: 32%;*/
 	top: 60px;
 	white-space: nowrap;
 	z-index: 10;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
-	font-family: 'Economica', Arial, sans-serif;
 	font-weight: 700;
 	margin-left: -8%;
 }
@@ -74,7 +73,6 @@
 	height: 80px;
 	overflow: hidden;
 	font-style: italic;
-	font-family: 'Economica', Arial, sans-serif;
 	font-weight: 400;
 	font-style: italic;
 	margin-left: -8%;
@@ -95,7 +93,7 @@
 	/*text-shadow: 1px 1px 1px rgba(0,0,0,0.2);*/
 	/*border: 8px solid rgba(255,255,255,0.8);*/
 	padding: 10px 5px;
-	font-size: 13px;
+	font-size: 14px;
 	line-height: 30px;
 	width: 170px;
 	text-align: center;
