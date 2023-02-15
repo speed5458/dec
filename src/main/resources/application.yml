@@ -1,19 +1,19 @@
 #ServerPort
 server :
-  port : 8090
+  port : 10721
   
 # Datasource Settings
-spring:
-  datasource:
-    driver-class-name : org.postgresql.Driver
-    url : jdbc:postgresql://127.0.0.1:5432/hccp
-    username : choi
+#spring:
+#  datasource:
+#    driver-class-name : org.postgresql.Driver
+#    url : jdbc:postgresql://127.0.0.1:5432/hccp
+#    username : choi
 
 
 # mybatis config
-  mybatis :
-    type-aliases-package : co.kr.pine.davinci.dto
-    mapper-locations : mapper/**/*.xml
+#  mybatis :
+#    type-aliases-package : co.kr.pine.davinci.dto
+#    mapper-locations : mapper/**/*.xml
 
 ## Logging Set
 #  logging :
