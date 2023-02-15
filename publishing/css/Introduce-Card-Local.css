@@ -41,30 +41,31 @@ body{
 }
 /* Contents1 */
 .contents1{
-    /* margin-bottom: 50px; */
+    /* margin-top: 80px; */
 }
 .dtl-contents1-box2{
+    /* margin-top: 30px; */
     text-align: center;
 }
 .contents1-frame1{
-    padding-left: 80px;
+    /* padding-left: 80px; */
 }
 .contents1-frame2{
-    padding-left: 35px;
-    text-align: left;
+    /* padding-left: 35px; */
+    /* text-align: left; */
 }
 .contents1-frame3{
-    text-align: left;
+    /* text-align: left; */
 }
 .dtl-contents1-box2 div span:nth-child(2){
     color: #76b042 ;
-    font-size: 25px;
+    font-size: 14px;
 
 }
 .dtl-contents1-box1 p{
-    margin-bottom: 20px;
+    margin-top: 30px;
     text-align: center;
-    font-size: 25px;
+    font-size: 17px;
     font-weight: 700;
     color: #76b042 ;
 }
@@ -74,15 +75,14 @@ body{
     border-radius: 20.5px;
     padding: 5px;
     text-align: center;
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 14px;
     color: #76b042 ;
 }
 
 /* Contents2 */
 .contents2{
-    margin-top: 40px;
     position: relative !important;
+    margin-top: 40px;
 }
 .contents2 img{
     width: 100%;
@@ -112,31 +112,34 @@ body{
 }
 
 .common-title p{
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 80px;
     text-align: center;
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 900;
     color: #76b042 ;
 }
 .common-title2 p{
-    margin-bottom: 20px;
+    margin-top: 40px;
     text-align: center;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 17px;
+    font-weight: 900;
     color: #666666 ;
 }
 .common-desc{
+    margin-top: 20px;
     text-align: center;
-    font-size: 15px;
+    font-size: 14px;
     color: #666666 ;
 }
 .desc-title-distance{
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 /* 신청절차 */
 /* 온라인상담 정보표시 */
+.process-box-main{
+    margin-top: 40px;
+}
 .process-box{
     border: 1px solid #76B042 ;
     min-height: 150px;
@@ -179,8 +182,7 @@ body{
     padding-bottom: 5px;
 }
 .caution-desc{
-    margin-top: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 .response-font2{
     display: none;

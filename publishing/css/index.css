@@ -108,6 +108,9 @@ body{
     height: 280px;
 }
 /* Seconds info container */
+.property-main-title h1{
+    font-weight: 900 !important;
+}
 .property-title{
     font-size: 18px;
     color: #666666;
@@ -122,6 +125,10 @@ body{
     margin-bottom: 20px;
     color: #666666;
 }
+.chiness-fonts{
+    font-family: Arial, Helvetica, sans-serif!important;
+}
+   
 
 .property-btn{
     font-size: 14px !important;
@@ -134,8 +141,10 @@ body{
     font-weight: 900;
     color: #666666;
     /* padding-left: 140px; */
-    padding-top: 20px;
-    padding-bottom: 5px;
+    /* padding-top: 20px;
+    padding-bottom: 5px; */
+    margin-top: 8px;
+    margin-bottom: 51px;
     text-align: center;
 }
 
@@ -149,18 +158,18 @@ body{
 .contact-num{
     font-size: 14px;
     text-align: center;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .contact-num a{
     color: #6eb12c;
     font-weight: 900;
-    font-size: 57px !important;
+    font-size: 50px !important;
 }
 .email-txt2{
     color: #6eb12c;
     font-weight: 900;
-    font-size: 40px !important;
+    font-size: 25px !important;
     
 }
 .contact-email-h3{
@@ -186,14 +195,22 @@ body{
 
 .nav-tabs-custom-a{
     background-color: #6eb12c;
-    font-size: 17px;
+    font-size: 21px;
     font-weight: 800;
     color: #666666;
+}
+.tasi-tab{
+    padding-left: 18px;
+    padding-top: 18px;
+    padding-right: 20px;
+}
+.media{
+    margin-top: 3px;
 }
 
 .da-link-set{
     font-size: 14px !important;
-    margin-top: 20px;
+    background-color: #76b042 !important;
 }
 
 .recent p{
@@ -329,6 +346,9 @@ body{
     }
     .footer{
         display: none;
+    }
+    .footer2{
+        display: block;
     }
     .address p {
         text-align: center !important;

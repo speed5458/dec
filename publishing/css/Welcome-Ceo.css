@@ -23,15 +23,15 @@ body{
     padding: 20px;
     text-align: center;
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 900;
     color: #76b042 ;
 }
 
 .welcome-sub-p p{
     margin-top: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     text-align: center;
-    font-size: 25px;
+    font-size: 21px;
     font-weight: 400;
     color: #76b042 ;
 }
@@ -58,7 +58,10 @@ body{
 }
 .sign{
     text-align: right;
-    padding-right: 100px;
-    font-size: 30px;
+    padding-right: 150px;
+    font-size: 32px;
     font-family: 'NanumPen';
+}
+.sign-sub{
+    font-size: 20px;
 }
