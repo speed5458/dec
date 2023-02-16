@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"> <!--해당파일 레이아웃으로 선언-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Developed By M Abdur Rokib Promy">
+    <meta name="author" content="cosmic">
+    <meta name="keywords" content="Bootstrap 3, Template, Theme, Responsive, Corporate, Business">
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <title>
+        드림요양보호사교육원 | Home
+    </title>
+
+
+    <!--    Externel CSS-->
+    <link rel="stylesheet" type="text/css" href="css/layout.css" />
+
+</head>
+
+<body>
+<th:block th:replace="/layout/fragments/HeadTest :: HeadFragment" ></th:block>
+<th:block layout:fragment="content"></th:block>
+<th:block th:replace="/layout/fragments/FooterTest :: FooterFragment" ></th:block>
+</body>
+
+</html>

@@ -1,14 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Developed By M Abdur Rokib Promy">
-    <meta name="author" content="cosmic">
-    <meta name="keywords" content="Bootstrap 3, Template, Theme, Responsive, Corporate, Business">
-    <link rel="shortcut icon" href="img/favicon.png">
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout/layout}">
 
-    <title>Acme | Home</title>
+<th:block layout:fragment="content">
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -26,226 +21,10 @@
 
 
 
-      <!-- Custom styles for this template -->
+    <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style-responsive.css" rel="stylesheet" />
     <link href="css/Detail-Academy.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-     <!--header start-->
-    <header class="head-section">
-      <div class="navbar navbar-default navbar-static-top container">
-          <div class="navbar-header">
-              <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse"
-              type="button"><span class="icon-bar"></span> <span class="icon-bar"></span>
-              <span class="icon-bar"></span></button> <a class="navbar-brand" href="index.html">A
-              <span>cme</span></a>
-          </div>
-
-          <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                  <li class="dropdown">
-                      <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
-                      "dropdown" data-toggle="dropdown" href="index.html">Home <i class="fa fa-angle-down"></i>
-                      </a>
-
-                      <ul class="dropdown-menu">
-                          <li>
-                              <a href="index.html">Home Parallax</a>
-                          </li>
-
-                          <li>
-                              <a href="index1.html">Home Seq-slider1</a>
-                          </li>
-
-                          <li>
-                              <a href="index2.html">Home Seq-slider2</a>
-                          </li>
-
-                      </ul>
-                  </li>
-
-                  <li class="dropdown">
-                      <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
-                      "dropdown" data-toggle="dropdown" href="#">Feature <i class="fa fa-angle-down"></i>
-                      </a>
-
-                      <ul class="dropdown-menu">
-                          <li>
-                              <a href="typography.html">Typography</a>
-                          </li>
-
-                          <li>
-                              <a href="button.html">Buttons</a>
-                          </li>
-
-                          <li>
-                              <a href="form.html">Form</a>
-                          </li>
-
-                          <li>
-                              <a href="table.html">Table</a>
-                          </li>
-
-                          <li class="dropdown-submenu">
-                              <a href="#" tabindex="-1">More options</a>
-
-                              <ul class="dropdown-menu">
-                                  <li>
-                                      <a href="#" tabindex="-1">Second level</a>
-                                  </li>
-
-                                  <li class="dropdown-submenu">
-                                      <a href="#">Even More..</a>
-
-                                      <ul class="dropdown-menu">
-                                          <li>
-                                              <a href="#">3rd level</a>
-                                          </li>
-
-                                          <li>
-                                              <a href="#">3rd level</a>
-                                          </li>
-                                      </ul>
-                                  </li>
-
-                                  <li>
-                                      <a href="#">Second level</a>
-                                  </li>
-
-                                  <li>
-                                      <a href="#">Second level</a>
-                                  </li>
-                              </ul>
-                          </li>
-                      </ul>
-                  </li>
-
-                  <li class="dropdown">
-                      <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
-                      "dropdown" data-toggle="dropdown" href="#">Pages <i class="fa fa-angle-down"></i>
-                      </a>
-
-                      <ul class="dropdown-menu">
-                          <li>
-                              <a href="about.html">About</a>
-                          </li>
-
-                          <li>
-                              <a href="404.html">404 page</a>
-                          </li>
-
-                          <li>
-                              <a href="career.html">career</a>
-                          </li>
-
-                          <li>
-                              <a href="login.html">Login</a>
-                          </li>
-
-                          <li>
-                              <a href="registration.html">Registration</a>
-                          </li>
-
-                          <li>
-                              <a href="faq.html">FAQ</a>
-                          </li>
-
-                          <li class="dropdown-submenu">
-                              <a href="#" tabindex="-1">Pricing table</a>
-
-                              <ul class="dropdown-menu">
-                                  <li class="dropdown-submenu"></li>
-
-                                  <li>
-                                      <a href="price-table-one.html">Pricing table one</a>
-                                  </li>
-
-                                  <li>
-                                      <a href="price-table-two.html">Pricing table two</a>
-                                  </li>
-                              </ul>
-                          </li>
-
-                          <li>
-                              <a href="service.html">Service</a>
-                          </li>
-
-                          <li>
-                              <a href="terms.html">Terms & Condition</a>
-                          </li>
-
-                          <li>
-                              <a href="privacy.html">Privacy policy</a>
-                          </li>
-                      </ul>
-                  </li>
-
-                  <li class="dropdown">
-                      <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
-                      "dropdown" data-toggle="dropdown" href="#">Portfolio <i class="fa fa-angle-down"></i>
-                      </a>
-
-                      <ul class="dropdown-menu">
-                          <li>
-                              <a href="portfolio-3-col.html">Portfolio 3 column</a>
-                          </li>
-
-                          <li>
-                              <a href="portfolio-4-col.html">Portfolio 4 column</a>
-                          </li>
-
-                          <li>
-                              <a href="portfolio-single-image.html">Portfolio Single Image</a>
-                          </li>
-
-                          <li>
-                              <a href="portfolio-single-video.html">Portfolio Single Video</a>
-                          </li>
-                      </ul>
-                  </li>
-
-                  <li class="dropdown">
-                      <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
-                      "dropdown" data-toggle="dropdown" href="#">Blog <i class="fa fa-angle-down"></i>
-                      </a>
-
-                      <ul class="dropdown-menu">
-                          <li>
-                              <a href="blog.html">Blog</a>
-                          </li>
-
-                          <li>
-                              <a href="blog-two-col.html">Blog two column</a>
-                          </li>
-
-                          <li>
-                              <a href="blog-detail.html">Blog Single Image</a>
-                          </li>
-
-                          <li>
-                              <a href="blog-detail-video.html">Blog single video</a>
-                          </li>
-                      </ul>
-                  </li>
-
-                  <li>
-                      <a href="contact.html">Contact</a>
-                  </li>
-
-                  <li><input class="form-control search" placeholder=" Search" type="text"></li>
-              </ul>
-          </div>
-      </div>
-    </header>
-    <!--header end-->
 
     <!--breadcrumbs start-->
     <div class="breadcrumbs">
@@ -256,9 +35,9 @@
                 </div>
                 <div class="col-lg-8 col-sm-8">
                     <ol class="breadcrumb pull-right topmenu-set">
-                      <li class="active"><a href="Detail-Academy.html">교육원안내</a></li>
-                      <li class="active"><a href="Introduce-Card-Local.html">내국인</a></li>
-                      <li class="active"><a href="Introduce-Card-Foreigner.html">외국인</a></li>
+                        <li class="active"><a href="Detail-Academy.html">교육원안내</a></li>
+                        <li class="active"><a href="Introduce-Card-Local.html">내국인</a></li>
+                        <li class="active"><a href="Introduce-Card-Foreigner.html">외국인</a></li>
                     </ol>
                 </div>
             </div>
@@ -266,18 +45,18 @@
     </div>
 
     <div class="container contents1">
-      <div class="col-lg-12 main-title-p">
-          <p>드림요양보호사교육원</p>
-      </div>
-      <div class="col-lg-12 dtl-contents-box">
+        <div class="col-lg-12 main-title-p">
+            <p>드림요양보호사교육원</p>
+        </div>
+        <div class="col-lg-12 dtl-contents-box">
             <div>저희 드림요양보호사교육원은</div>
             <div>현직 간호사 강사와 재가복지센터의 운영자, 다른요양보호사교육원의</div>
             <div>원장님 등 다양한 강사진으로 구성되어 질높은 교육을 진행하고 있습니다.</div>
-            <div>지역의 여러 업체들과의 협약을 통한 시니어사업 시스템을 구축하기 위해 노력하고 있습니다.</div> 
+            <div>지역의 여러 업체들과의 협약을 통한 시니어사업 시스템을 구축하기 위해 노력하고 있습니다.</div>
             <div>현재 방문요양, 방문목욕, 교육원에 이르기까지 다양한 서비스를 제공하고 있으며</div>
-            <div>더 많은 곳과 함께하기 위해 노력하고 있습니다.</div> 
-      </div>
-  </div>
+            <div>더 많은 곳과 함께하기 위해 노력하고 있습니다.</div>
+        </div>
+    </div>
 
 
 
@@ -286,7 +65,7 @@
     <div class="container"  id="academy-time">
         <div class="row">
             <div class="col-md-12 table-line">
-              <div></div>
+                <div></div>
             </div>
             <div class="col-md-12">
                 <p class="table-title1">요양보호사교육기간</p>
@@ -296,172 +75,172 @@
             </div>
         </div>
     </div>
-     <!--요양보호사교육기간 Title end-->
+    <!--요양보호사교육기간 Title end-->
 
-     <!--요양보호사교육기간 Table-->
+    <!--요양보호사교육기간 Table-->
 
     <div class="container">
         <!-- /.table-responsive -->
         <div class="table-responsive">
             <table class="table table-bordered hcc-table-set1">
-              <thead>
+                <thead>
                 <tr>
-                  <th colspan="2" class="table1-col-set1">
-                    구분
-                  </th>
-                  <th class="table1-col-set2">
-                    총시간
-                  </th>
-                  <th class="table1-col-set2">
-                    이론
-                  </th>
-                  <th class="table1-col-set2">
-                    실기
-                  </th>
-                  <th class="table1-col-set2">
-                    실습
-                  </th>
+                    <th colspan="2" class="table1-col-set1">
+                        구분
+                    </th>
+                    <th class="table1-col-set2">
+                        총시간
+                    </th>
+                    <th class="table1-col-set2">
+                        이론
+                    </th>
+                    <th class="table1-col-set2">
+                        실기
+                    </th>
+                    <th class="table1-col-set2">
+                        실습
+                    </th>
                 </tr>
-              </thead>
-              <tbody>
+                </thead>
+                <tbody>
                 <tr class="table-border-b">
-                  <td colspan="2" class="dtl-fonts-color-set1 table-border-r">
-                    신규자
-                  </td>
-                  <td>
-                    240
-                  </td>
-                  <td>
-                    80
-                  </td>
-                  <td>
-                    80
-                  </td>
-                  <td>
-                    80
-                  </td>
+                    <td colspan="2" class="dtl-fonts-color-set1 table-border-r">
+                        신규자
+                    </td>
+                    <td>
+                        240
+                    </td>
+                    <td>
+                        80
+                    </td>
+                    <td>
+                        80
+                    </td>
+                    <td>
+                        80
+                    </td>
                 </tr>
                 <tr >
-                  <td rowspan="3" class="dtl-fonts-color-set1 table-border-b">
-                    경력자
-                  </td>
-                  <td class="dtl-fonts-color-set1 table-border-r">
-                    기타일반
-                  </td>
-                  <td>
-                    169
-                  </td>
-                  <td>
-                    80
-                  </td>
-                  <td>
-                    40
-                  </td>
-                  <td>
-                    40
-                  </td>
+                    <td rowspan="3" class="dtl-fonts-color-set1 table-border-b">
+                        경력자
+                    </td>
+                    <td class="dtl-fonts-color-set1 table-border-r">
+                        기타일반
+                    </td>
+                    <td>
+                        169
+                    </td>
+                    <td>
+                        80
+                    </td>
+                    <td>
+                        40
+                    </td>
+                    <td>
+                        40
+                    </td>
                 </tr>
                 <tr>
-                  <td class="dtl-fonts-color-set1 table-border-r">
-                    요양 / 재가
-                  </td>
-                  <td>
-                    140
-                  </td>
-                  <td>
-                    80
-                  </td>
-                  <td>
-                    40
-                  </td>
-                  <td>
-                    20
-                  </td>
+                    <td class="dtl-fonts-color-set1 table-border-r">
+                        요양 / 재가
+                    </td>
+                    <td>
+                        140
+                    </td>
+                    <td>
+                        80
+                    </td>
+                    <td>
+                        40
+                    </td>
+                    <td>
+                        20
+                    </td>
                 </tr>
                 <tr class="table-border-b">
-                  <td class="dtl-fonts-color-set1 table-border-r">
-                    요양 + 재가
-                  </td>
-                  <td>
-                    120
-                  </td>
-                  <td>
-                    80
-                  </td>
-                  <td>
-                    40
-                  </td>
-                  <td>
-                    0
-                  </td>
+                    <td class="dtl-fonts-color-set1 table-border-r">
+                        요양 + 재가
+                    </td>
+                    <td>
+                        120
+                    </td>
+                    <td>
+                        80
+                    </td>
+                    <td>
+                        40
+                    </td>
+                    <td>
+                        0
+                    </td>
                 </tr>
                 <tr>
-                  <td rowspan="3" class="dtl-fonts-color-set1 table-border-b">
-                    국가자격(면허) 소지자
-                  </td>
-                  <td class="dtl-fonts-color-set1 table-border-r">
-                    간호사
-                  </td>
-                  <td>
-                    40
-                  </td>
-                  <td>
-                    26
-                  </td>
-                  <td>
-                    6
-                  </td>
-                  <td>
-                    8
-                  </td>
+                    <td rowspan="3" class="dtl-fonts-color-set1 table-border-b">
+                        국가자격(면허) 소지자
+                    </td>
+                    <td class="dtl-fonts-color-set1 table-border-r">
+                        간호사
+                    </td>
+                    <td>
+                        40
+                    </td>
+                    <td>
+                        26
+                    </td>
+                    <td>
+                        6
+                    </td>
+                    <td>
+                        8
+                    </td>
                 </tr>
                 <tr>
-                  <td class="dtl-fonts-color-set1 table-border-r">
-                    사회복지사
-                  </td>
-                  <td>
-                    50
-                  </td>
-                  <td>
-                    32
-                  </td>
-                  <td>
-                    10
-                  </td>
-                  <td>
-                    8
-                  </td>
+                    <td class="dtl-fonts-color-set1 table-border-r">
+                        사회복지사
+                    </td>
+                    <td>
+                        50
+                    </td>
+                    <td>
+                        32
+                    </td>
+                    <td>
+                        10
+                    </td>
+                    <td>
+                        8
+                    </td>
                 </tr>
                 <tr class="table-border-b">
-                  <td class="dtl-fonts-color-set1 table-border-r"> 
-                    물리치료사 / 작업치료사 / 간호조무사
-                  </td>
-                  <td>
-                    50
-                  </td>
-                  <td>
-                    31
-                  </td>
-                  <td>
-                    11
-                  </td>
-                  <td>
-                    8
-                  </td>
+                    <td class="dtl-fonts-color-set1 table-border-r">
+                        물리치료사 / 작업치료사 / 간호조무사
+                    </td>
+                    <td>
+                        50
+                    </td>
+                    <td>
+                        31
+                    </td>
+                    <td>
+                        11
+                    </td>
+                    <td>
+                        8
+                    </td>
                 </tr>
-              </tbody>
+                </tbody>
             </table>
-          </div>
-          <!-- /.table-responsive -->
+        </div>
+        <!-- /.table-responsive -->
     </div>
-     <!--요양보호사교육기간 Table end-->
+    <!--요양보호사교육기간 Table end-->
 
-      <!--표준교육과정 Table title-->
+    <!--표준교육과정 Table title-->
 
     <div class="container" id="academy-process">
         <div class="row">
             <div class="col-md-12 table-line">
-              <div></div>
+                <div></div>
             </div>
             <div class="col-md-12">
                 <p class="table-title1">표준교육과정</p>
@@ -471,848 +250,727 @@
             </div>
         </div>
     </div>
-     <!--표준교육과정 Table end-->
+    <!--표준교육과정 Table end-->
 
-     <!--표준교육과정 Table-->
+    <!--표준교육과정 Table-->
 
     <div class="container">
-      <!-- /.table-responsive -->
-      <div class="table-responsive">
-          <table class="table table-bordered hcc-table-set1">
-            <thead>
-              <tr>
-                <th >
-                  구분
-                </th>
-                <th>
-                  과목
-                </th>
-                <th>
-                  교육내용
-                </th>
-                <th class="table1-col-set2">
-                  이론
-                </th>
-                <th class="table1-col-set2">
-                  실기
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td rowspan="14" class="dtl-fonts-color-set1">
-                  이론강의(80시간)<br>실기연습(80시간)
-                </td>
-                <td rowspan="4" class="table-border-b">
-                  요양보호개론
-                </td>
-                <td >
-                요양보호 관련 제도 및 서비스
-                </td>
-                <td>
-                  5
-                </td>
-                <td>
-                  
-                </td>
-              </tr>
-              <tr >
-                <td>
-                  요양보호 업무의 목적 및 기능
-                </td>
-                <td>
-                  2
-                </td>
-                <td>
-                  
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  요양보호사의 직업윤리와 자세
-                </td>
-                <td>
-                  8
-                </td>
-                <td>
-                  6
-                </td>
-              </tr>
-              <tr class="table-border-b">
-                <td>
-                  요양보호 업무의 목적 및 기능
-                </td>
-                <td>
-                  2
-                </td>
-                <td>
-                  
-                </td>
-              </tr>
-              <tr class="table-border-b">
-                <td >
-                  요양보호 관련 기초지식
-                </td>
-                <td>
-                  의학적ㆍ간호학적 기초지식
-                </td>
-                <td>
-                  12
-                </td>
-                <td>
-                  3
-                </td>
-              </tr>
-              <tr>
-                <td rowspan="5" class="table-border-b">
-                  요양보호각론
-                </td>
-                <td>
-                  기본 요양보호 기술
-                </td>
-                <td>
-                  23
-                </td>
-                <td>
-                  36
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  가사 및 일상샐활 지원
-                </td>
-                <td>
-                  4
-                </td>
-                <td>
-                  6
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  의사소통 및 여가 지원
-                </td>
-                <td>
-                  5
-                </td>
-                <td>
-                  6
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  서비스 이용 지원
-                </td>
-                <td>
-                  3
-                </td>
-                <td>
-                  4
-                </td>
-              </tr>
-              <tr class="table-border-b">
-                <td>
-                  요양보호 업무 기록 및 보고
-                </td>
-                <td>
-                  3
-                </td>
-                <td>
-                  4
-                </td>
-              </tr>
-              <tr>
-                <td rowspan="3" class="table-border-b">
-                  특수요양보호각론
-                </td>
-                <td>
-                  치매 요양보호 기술
-                </td>
-                <td>
-                  8
-                </td>
-                <td>
-                  8
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  임종 및 호스피스 요양보호 기술
-                </td>
-                <td>
-                  3
-                </td>
-                <td>
-                  3
-                </td>
-              </tr>
-              <tr class="table-border-b">
-                <td>
-                  응급처치 기술
-                </td>
-                <td>
-                  4
-                </td>
-                <td>
-                  6
-                </td>
-              </tr>
-              <tr class="dtl-table-back1 table-border-b">
-                <td colspan="2" class="dtl-fonts-color-set1">
-                  소계
-                </td>
-                <td class="dtl-fonts-color-set1">
-                  8
-                </td>
-                <td class="dtl-fonts-color-set1">
-                  8
-                </td>
-              </tr>
-              <tr>
-                <td rowspan="3" class="dtl-fonts-color-set1">
-                  현장실습(80시간)
-                </td>
-                <td colspan="2">
-                  노인요양 시설 실습
-                </td>
-                <td colspan="2">
-                  40
-                </td>
-              </tr>
-              <tr class="table-border-b">
-                <td colspan="2">
-                  재가요양 서비스 실습
-                </td>
-                <td colspan="2">
-                  40
-                </td>
-              </tr>
-              <tr class="dtl-table-back1 table-border-b">
-                <td colspan="2" class="dtl-fonts-color-set1">
-                  소계
-                </td>
-                <td colspan="2" class="dtl-fonts-color-set1">
-                  80
-                </td>
-              </tr>
-              <tr class="dtl-table-back2">
-                <td colspan="3" class="dtl-fonts-color-set1">
-                  총시간
-                </td>
-                <td colspan="2" class="dtl-fonts-color-set1">
-                  240
-                </td>
-              </tr>
-            </tbody>
-          </table>
+        <!-- /.table-responsive -->
+        <div class="table-responsive">
+            <table class="table table-bordered hcc-table-set1">
+                <thead>
+                <tr>
+                    <th >
+                        구분
+                    </th>
+                    <th>
+                        과목
+                    </th>
+                    <th>
+                        교육내용
+                    </th>
+                    <th class="table1-col-set2">
+                        이론
+                    </th>
+                    <th class="table1-col-set2">
+                        실기
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td rowspan="14" class="dtl-fonts-color-set1">
+                        이론강의(80시간)<br>실기연습(80시간)
+                    </td>
+                    <td rowspan="4" class="table-border-b">
+                        요양보호개론
+                    </td>
+                    <td >
+                        요양보호 관련 제도 및 서비스
+                    </td>
+                    <td>
+                        5
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr >
+                    <td>
+                        요양보호 업무의 목적 및 기능
+                    </td>
+                    <td>
+                        2
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        요양보호사의 직업윤리와 자세
+                    </td>
+                    <td>
+                        8
+                    </td>
+                    <td>
+                        6
+                    </td>
+                </tr>
+                <tr class="table-border-b">
+                    <td>
+                        요양보호 업무의 목적 및 기능
+                    </td>
+                    <td>
+                        2
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr class="table-border-b">
+                    <td >
+                        요양보호 관련 기초지식
+                    </td>
+                    <td>
+                        의학적ㆍ간호학적 기초지식
+                    </td>
+                    <td>
+                        12
+                    </td>
+                    <td>
+                        3
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="5" class="table-border-b">
+                        요양보호각론
+                    </td>
+                    <td>
+                        기본 요양보호 기술
+                    </td>
+                    <td>
+                        23
+                    </td>
+                    <td>
+                        36
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        가사 및 일상샐활 지원
+                    </td>
+                    <td>
+                        4
+                    </td>
+                    <td>
+                        6
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        의사소통 및 여가 지원
+                    </td>
+                    <td>
+                        5
+                    </td>
+                    <td>
+                        6
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        서비스 이용 지원
+                    </td>
+                    <td>
+                        3
+                    </td>
+                    <td>
+                        4
+                    </td>
+                </tr>
+                <tr class="table-border-b">
+                    <td>
+                        요양보호 업무 기록 및 보고
+                    </td>
+                    <td>
+                        3
+                    </td>
+                    <td>
+                        4
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="3" class="table-border-b">
+                        특수요양보호각론
+                    </td>
+                    <td>
+                        치매 요양보호 기술
+                    </td>
+                    <td>
+                        8
+                    </td>
+                    <td>
+                        8
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        임종 및 호스피스 요양보호 기술
+                    </td>
+                    <td>
+                        3
+                    </td>
+                    <td>
+                        3
+                    </td>
+                </tr>
+                <tr class="table-border-b">
+                    <td>
+                        응급처치 기술
+                    </td>
+                    <td>
+                        4
+                    </td>
+                    <td>
+                        6
+                    </td>
+                </tr>
+                <tr class="dtl-table-back1 table-border-b">
+                    <td colspan="2" class="dtl-fonts-color-set1">
+                        소계
+                    </td>
+                    <td class="dtl-fonts-color-set1">
+                        8
+                    </td>
+                    <td class="dtl-fonts-color-set1">
+                        8
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="3" class="dtl-fonts-color-set1">
+                        현장실습(80시간)
+                    </td>
+                    <td colspan="2">
+                        노인요양 시설 실습
+                    </td>
+                    <td colspan="2">
+                        40
+                    </td>
+                </tr>
+                <tr class="table-border-b">
+                    <td colspan="2">
+                        재가요양 서비스 실습
+                    </td>
+                    <td colspan="2">
+                        40
+                    </td>
+                </tr>
+                <tr class="dtl-table-back1 table-border-b">
+                    <td colspan="2" class="dtl-fonts-color-set1">
+                        소계
+                    </td>
+                    <td colspan="2" class="dtl-fonts-color-set1">
+                        80
+                    </td>
+                </tr>
+                <tr class="dtl-table-back2">
+                    <td colspan="3" class="dtl-fonts-color-set1">
+                        총시간
+                    </td>
+                    <td colspan="2" class="dtl-fonts-color-set1">
+                        240
+                    </td>
+                </tr>
+                </tbody>
+            </table>
         </div>
         <!-- /.table-responsive -->
-  </div>
-   <!--표준교육과정 Table end-->
-
-   <!--국가자격(면허)소지자 교육과정 Table title-->
-
-   <div class="container" id="license-process">
-    <div class="row">
-        <div class="col-md-12 table-line">
-          <div></div>
-        </div>
-        <div class="col-md-12">
-            <p class="table-title1">국가자격(면허)소지자 교육과정</p>
-            <p class="table-title2">간호사</p>
-        </div>
-        <div class="col-md-12">
-            <p class="table-sub1">(단위&nbsp:&nbsp&nbsp&nbsp시간)</p>
-        </div>
     </div>
-</div>
- <!--국가자격(면허)소지자 교육과정 Table end-->
+    <!--표준교육과정 Table end-->
 
- <!--국가자격(면허)소지자 교육과정 Table-->
+    <!--국가자격(면허)소지자 교육과정 Table title-->
 
- <div class="container">
-  <!-- /.table-responsive -->
-  <div class="table-responsive">
-      <table class="table table-bordered hcc-table-set1">
-        <thead>
-          <tr>
-            <th class="">
-              구분
-            </th>
-            <th>
-              과목
-            </th>
-            <th>
-              교육내용
-            </th>
-            <th class="table1-col-set2">
-              이론
-            </th>
-            <th class="table1-col-set2">
-              실기
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td rowspan="7" class="dtl-fonts-color-set1 table-border-b">
-              이론강의(80시간)<br>실기연습(80시간)
-            </td>
-            <td rowspan="4">
-              요양보호개론
-            </td>
-            <td >
-            요양보호 관련 제도 및 서비스
-            </td>
-            <td>
-              5
-            </td>
-            <td>
-              
-            </td>
-          </tr>
-          <tr>
-            <td>
-              요양보호 업무의 목적 및 기능
-            </td>
-            <td>
-              2
-            </td>
-            <td>
-              
-            </td>
-          </tr>
-          <tr>
-            <td>
-              요양보호사의 직업윤리와 자세
-            </td>
-            <td>
-              8
-            </td>
-            <td>
-              2
-            </td>
-          </tr>
-          <tr>
-            <td>
-              요양보호 대상자 이해
-            </td>
-            <td>
-              2
-            </td>
-            <td>
-              
-            </td>
-          </tr>
-          <tr>
-            <td rowspan="2">
-              요양보호 각론
-            </td>
-            <td>
-              서비스 이용 지원
-            </td>
-            <td>
-              3
-            </td>
-            <td>
-              
-            </td>
-          </tr>
-          <tr>
-            <td>
-              요양보호 업무 기록 및 보고
-            </td>
-            <td>
-              3
-            </td>
-            <td>
-              2
-            </td>
-          </tr>
-          <tr class="table-border-b">
-            <td>
-              특수요양보호각론
-            </td>
-            <td>
-              치매 요양보호 기술
-            </td>
-            <td>
-              3
-            </td>
-            <td>
-              
-            </td>
-          </tr>
-          <tr class="table-border-b">
-            <td class="dtl-fonts-color-set1">
-              현장실습(08시간)
-            </td>
-            <td colspan="2">
-              노인요양시설 또는 재가노인복지시설 실습
-            </td>
-            <td colspan="2">
-              8
-            </td>
-          </tr>
-          
-          <tr class="dtl-table-back2">
-            <td colspan="3" class="dtl-fonts-color-set1">
-              총시간
-            </td>
-            <td colspan="2" class="dtl-fonts-color-set1">
-              40
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!-- /.table-responsive -->
-</div>
-<!--국가자격(면허)소지자 교육과정 Table end-->
-
-
-
-   <!--사회복지사 교육과정 Table title-->
-
-   <div class="container">
-    <div class="row">
-        <div class="col-md-12 table-line">
-          <div></div>
-        </div>
-        <div class="col-md-12">
-            <p class="table-title1">사회복지사 교육과정</p>
-        </div>
-        <div class="col-md-12">
-            <p class="table-sub1">(단위&nbsp:&nbsp&nbsp&nbsp시간)</p>
-        </div>
-    </div>
-</div>
- <!--사회복지사 교육과정 Table end-->
-
- <!--사회복지사 교육과정 Table-->
- <div class="container">
-  <!-- /.table-responsive -->
-  <div class="table-responsive">
-      <table class="table table-bordered hcc-table-set1">
-        <thead>
-          <tr>
-            <th>
-              구분
-            </th>
-            <th>
-              과목
-            </th>
-            <th>
-              교육내용
-            </th>
-            <th class="table1-col-set2">
-              이론
-            </th>
-            <th class="table1-col-set2">
-              실기
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td rowspan="7" class="dtl-fonts-color-set1 table-border-b">
-              이론강의(32시간)<br>실기연습(10시간)
-            </td>
-            <td rowspan="3">
-              요양보호개론
-            </td>
-            <td >
-            요양보호 관련 제도 및 서비스
-            </td>
-            <td>
-              3
-            </td>
-            <td>
-              
-            </td>
-          </tr>
-          <tr>
-            <td>
-              요양보호 업무의 목적 및 기능
-            </td>
-            <td>
-              2
-            </td>
-            <td>
-              
-            </td>
-          </tr>
-          <tr>
-            <td>
-              요양보호사의 직업윤리와 자세
-            </td>
-            <td>
-              8
-            </td>
-            <td>
-              
-            </td>
-          </tr>
-          <tr>
-            <td>
-              요양보호 관련 기초지식
-            </td>
-            <td>
-              의학적ㆍ간호학적 기초지식
-            </td>
-            <td>
-              10
-            </td>
-            <td>
-              3
-            </td>
-          </tr>
-          <tr>
-            <td rowspan="2">
-              요양보호 각론
-            </td>
-            <td>
-              기본 요양보호 기술
-            </td>
-            <td>
-              4
-            </td>
-            <td>
-              4
-            </td>
-          </tr>
-          <tr>
-            <td>
-              요양보호 업무 기록 및 보고
-            </td>
-            <td>
-              2
-            </td>
-            <td>
-              
-            </td>
-          </tr>
-          <tr class="table-border-b">
-            <td>
-              특수요양보호각론
-            </td>
-            <td>
-              치매 요양보호 기술
-            </td>
-            <td>
-              3
-            </td>
-            <td>
-              3
-            </td>
-          </tr>
-          <tr class="table-border-b">
-            <td class="dtl-fonts-color-set1">
-              현장실습(08시간)
-            </td>
-            <td colspan="2">
-              노인요양시설 또는 재가노인복지시설 실습
-            </td>
-            <td colspan="2">
-              8
-            </td>
-          </tr>
-          
-          <tr class="dtl-table-back2">
-            <td colspan="3" class="dtl-fonts-color-set1">
-              총시간
-            </td>
-            <td colspan="2" class="dtl-fonts-color-set1">
-              50
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!-- /.table-responsive -->
-</div>
-<!--사회복지사 교육과정 Table end-->
-
-<!--물리치료사ㆍ작업치료사ㆍ간호조무사 Table title-->
-
-<div class="container">
-  <div class="row">
-      <div class="col-md-12 table-line">
-        <div></div>
-      </div>
-      <div class="col-md-12">
-          <p class="table-title1">물리치료사ㆍ작업치료사ㆍ간호조무사</p>
-      </div>
-      <div class="col-md-12">
-          <p class="table-sub1">(단위&nbsp:&nbsp&nbsp&nbsp시간)</p>
-      </div>
-  </div>
-</div>
-<!--물리치료사ㆍ작업치료사ㆍ간호조무사 Table end-->
-
-<!--물리치료사ㆍ작업치료사ㆍ간호조무사 Table-->
-<div class="container table-end-set">
-<!-- /.table-responsive -->
-<div class="table-responsive">
-    <table class="table table-bordered hcc-table-set1">
-      <thead>
-        <tr>
-          <th>
-            구분
-          </th>
-          <th>
-            과목
-          </th>
-          <th>
-            교육내용
-          </th>
-          <th class="table1-col-set2">
-            이론
-          </th>
-          <th class="table1-col-set2">
-            실기
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td rowspan="7" class="dtl-fonts-color-set1 table-border-b">
-            이론강의(31시간)<br>실기연습(11시간)
-          </td>
-          <td rowspan="3">
-            요양보호개론
-          </td>
-          <td >
-          요양보호 관련 제도 및 서비스
-          </td>
-          <td>
-            5
-          </td>
-          <td>
-            
-          </td>
-        </tr>
-        <tr>
-          <td>
-            요양보호 업무의 목적 및 기능
-          </td>
-          <td>
-            2
-          </td>
-          <td>
-            
-          </td>
-        </tr>
-        <tr>
-          <td>
-            요양보호사의 직업윤리와 자세
-          </td>
-          <td>
-            8
-          </td>
-          <td>
-            4
-          </td>
-        </tr>
-        <tr>
-          <td>
-            요양보호 관련 기초지식
-          </td>
-          <td>
-            의학적ㆍ간호학적 기초지식
-          </td>
-          <td>
-            2
-          </td>
-          <td>
-            
-          </td>
-        </tr>
-        <tr>
-          <td rowspan="2">
-            요양보호 각론
-          </td>
-          <td>
-            의사소통 및 여가지원
-          </td>
-          <td>
-            5
-          </td>
-          <td>
-            
-          </td>
-        </tr>
-        <tr>
-          <td>
-            서비스 이용 지원
-          </td>
-          <td>
-            3
-          </td>
-          <td>
-            
-          </td>
-        </tr>
-        <tr class="table-border-b">
-          <td>
-            특수요양보호각론
-          </td>
-          <td>
-            치매 요양보호 기술
-          </td>
-          <td>
-            3
-          </td>
-          <td>
-            3
-          </td>
-        </tr>
-        <tr class="table-border-b">
-          <td class="dtl-fonts-color-set1">
-            현장실습(08시간)
-          </td>
-          <td colspan="2">
-            노인요양시설 또는 재가노인복지시설 실습
-          </td>
-          <td colspan="2">
-            8
-          </td>
-        </tr>
-        
-        <tr class="dtl-table-back2">
-          <td colspan="3" class="dtl-fonts-color-set1">
-            총시간
-          </td>
-          <td colspan="2" class="dtl-fonts-color-set1">
-            50
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  <!-- /.table-responsive -->
-</div>
-<!--물리치료사ㆍ작업치료사ㆍ간호조무사 Table end-->
-     
-
-
-
-     <!--footer start-->
-     <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-sm-3 address wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
-                     <h1>contact info</h1>
-                     <address>
-                         <p><i class="fa fa-home pr-10"></i>Address: No.XXXXXX street</p>
-                         <p><i class="fa fa-globe pr-10"></i>Mars city, Country</p>
-                         <p><i class="fa fa-mobile pr-10"></i>Mobile : (123) 456-7890</p>
-                         <p><i class="fa fa-phone pr-10"></i>Phone : (123) 456-7890</p>
-                         <p><i class="fa fa-envelope pr-10"></i>Email : <a href="javascript:;">support@example.com</a></p>
-                     </address>
-                 </div>
-                <div class="col-lg-3 col-sm-3 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".3s">
-                    <h1>latest tweet</h1>
-                    <div id="owl-slide">
-                    <div class="tweet-box">
-                        <i class="fa fa-twitter"></i>
-                        <em>Please follow <a href="javascript:;">@example</a> for all future updates of us! <a href="javascript:;">twitter.com/acme</a></em>
-                    </div>
-                    <div class="tweet-box">
-                        <i class="fa fa-twitter"></i>
-                        <em>Please follow <a href="javascript:;">@example</a> for all future updates of us! <a href="javascript:;">twitter.com/acme</a></em>
-                    </div>
-                    <div class="tweet-box">
-                        <i class="fa fa-twitter"></i>
-                        <em>Please follow <a href="javascript:;">@example</a> for all future updates of us! <a href="javascript:;">twitter.com/acme</a></em>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-3">
-                <div class="page-footer wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
-                    <h1>Our Company</h1>
-                    <ul class="page-footer-list">
-
-                        <li><i class="fa fa-angle-right"></i><a href="about.html">About Us</a></li>
-                        <li><i class="fa fa-angle-right"></i><a href="faq.html">Support</a></li>
-                        <li><i class="fa fa-angle-right"></i><a href="service.html">Service</a></li>
-                        <li><i class="fa fa-angle-right"></i><a href="privacy-policy.html">Privacy Policy</a></li>
-                        <li><i class="fa fa-angle-right"></i><a href="career.html">We are Hiring</a></li>
-                        <li><i class="fa fa-angle-right"></i><a href="terms.html">Term & condition</a></li>
-
-                    </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-3">
-
-                    <div class="text-footer wow fadeInUp" data-wow-duration="2s" data-wow-delay=".7s">
-                    <h1>Text Widget</h1>
-                        <p>
-                            This is a text widget.Lorem ipsum dolor sit amet.
-                            This is a text widget.Lorem ipsum dolor sit amet
-                        </p>
-                    </div>
-                </div>
-
+    <div class="container" id="license-process">
+        <div class="row">
+            <div class="col-md-12 table-line">
+                <div></div>
             </div>
-
-        </div>
-    </footer>
-    <!-- footer end -->
-    <!--small footer start -->
-    <footer class="footer-small">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-sm-6 pull-right">
-                    <ul class="social-link-footer list-unstyled">
-                        <li class="wow flipInX" data-wow-duration="2s" data-wow-delay=".1s"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="wow flipInX" data-wow-duration="2s" data-wow-delay=".2s"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li class="wow flipInX" data-wow-duration="2s" data-wow-delay=".3s"><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                        <li class="wow flipInX" data-wow-duration="2s" data-wow-delay=".4s"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li class="wow flipInX" data-wow-duration="2s" data-wow-delay=".5s"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li class="wow flipInX" data-wow-duration="2s" data-wow-delay=".6s"><a href="#"><i class="fa fa-skype"></i></a></li>
-                        <li class="wow flipInX" data-wow-duration="2s" data-wow-delay=".7s"><a href="#"><i class="fa fa-github"></i></a></li>
-                        <li class="wow flipInX" data-wow-duration="2s" data-wow-delay=".8s"><a href="#"><i class="fa fa-youtube"></i></a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                  <div class="copyright">
-                    <p>Shared by <i class="fa fa-love"></i><a href="https://bootstrapthemes.co">BootstrapThemes</a></p>
-                  </div>
-                </div>
+            <div class="col-md-12">
+                <p class="table-title1">국가자격(면허)소지자 교육과정</p>
+                <p class="table-title2">간호사</p>
+            </div>
+            <div class="col-md-12">
+                <p class="table-sub1">(단위&nbsp:&nbsp&nbsp&nbsp시간)</p>
             </div>
         </div>
-    </footer>
-     <!--small footer end-->
+    </div>
+    <!--국가자격(면허)소지자 교육과정 Table end-->
 
-  <!-- js placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/hover-dropdown.js"></script>
-    <script defer src="js/jquery.flexslider.js"></script>
-    <script type="text/javascript" src="assets/bxslider/jquery.bxslider.js"></script>
-    <script src="assets/owlcarousel/owl.carousel.js"></script>
+    <!--국가자격(면허)소지자 교육과정 Table-->
+
+    <div class="container">
+        <!-- /.table-responsive -->
+        <div class="table-responsive">
+            <table class="table table-bordered hcc-table-set1">
+                <thead>
+                <tr>
+                    <th class="">
+                        구분
+                    </th>
+                    <th>
+                        과목
+                    </th>
+                    <th>
+                        교육내용
+                    </th>
+                    <th class="table1-col-set2">
+                        이론
+                    </th>
+                    <th class="table1-col-set2">
+                        실기
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td rowspan="7" class="dtl-fonts-color-set1 table-border-b">
+                        이론강의(80시간)<br>실기연습(80시간)
+                    </td>
+                    <td rowspan="4">
+                        요양보호개론
+                    </td>
+                    <td >
+                        요양보호 관련 제도 및 서비스
+                    </td>
+                    <td>
+                        5
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        요양보호 업무의 목적 및 기능
+                    </td>
+                    <td>
+                        2
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        요양보호사의 직업윤리와 자세
+                    </td>
+                    <td>
+                        8
+                    </td>
+                    <td>
+                        2
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        요양보호 대상자 이해
+                    </td>
+                    <td>
+                        2
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        요양보호 각론
+                    </td>
+                    <td>
+                        서비스 이용 지원
+                    </td>
+                    <td>
+                        3
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        요양보호 업무 기록 및 보고
+                    </td>
+                    <td>
+                        3
+                    </td>
+                    <td>
+                        2
+                    </td>
+                </tr>
+                <tr class="table-border-b">
+                    <td>
+                        특수요양보호각론
+                    </td>
+                    <td>
+                        치매 요양보호 기술
+                    </td>
+                    <td>
+                        3
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr class="table-border-b">
+                    <td class="dtl-fonts-color-set1">
+                        현장실습(08시간)
+                    </td>
+                    <td colspan="2">
+                        노인요양시설 또는 재가노인복지시설 실습
+                    </td>
+                    <td colspan="2">
+                        8
+                    </td>
+                </tr>
+
+                <tr class="dtl-table-back2">
+                    <td colspan="3" class="dtl-fonts-color-set1">
+                        총시간
+                    </td>
+                    <td colspan="2" class="dtl-fonts-color-set1">
+                        40
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- /.table-responsive -->
+    </div>
+    <!--국가자격(면허)소지자 교육과정 Table end-->
 
 
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/link-hover.js"></script>
 
+    <!--사회복지사 교육과정 Table title-->
 
-     <!--common script for all pages-->
-    <script src="js/common-scripts.js"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 table-line">
+                <div></div>
+            </div>
+            <div class="col-md-12">
+                <p class="table-title1">사회복지사 교육과정</p>
+            </div>
+            <div class="col-md-12">
+                <p class="table-sub1">(단위&nbsp:&nbsp&nbsp&nbsp시간)</p>
+            </div>
+        </div>
+    </div>
+    <!--사회복지사 교육과정 Table end-->
 
+    <!--사회복지사 교육과정 Table-->
+    <div class="container">
+        <!-- /.table-responsive -->
+        <div class="table-responsive">
+            <table class="table table-bordered hcc-table-set1">
+                <thead>
+                <tr>
+                    <th>
+                        구분
+                    </th>
+                    <th>
+                        과목
+                    </th>
+                    <th>
+                        교육내용
+                    </th>
+                    <th class="table1-col-set2">
+                        이론
+                    </th>
+                    <th class="table1-col-set2">
+                        실기
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td rowspan="7" class="dtl-fonts-color-set1 table-border-b">
+                        이론강의(32시간)<br>실기연습(10시간)
+                    </td>
+                    <td rowspan="3">
+                        요양보호개론
+                    </td>
+                    <td >
+                        요양보호 관련 제도 및 서비스
+                    </td>
+                    <td>
+                        3
+                    </td>
+                    <td>
 
-  <script>
-    $(document).ready(function() {
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        요양보호 업무의 목적 및 기능
+                    </td>
+                    <td>
+                        2
+                    </td>
+                    <td>
 
-        $("#owl-demo").owlCarousel({
-            items : 4
-        });
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        요양보호사의 직업윤리와 자세
+                    </td>
+                    <td>
+                        8
+                    </td>
+                    <td>
 
-      });
-    new WOW().init();
-  </script>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        요양보호 관련 기초지식
+                    </td>
+                    <td>
+                        의학적ㆍ간호학적 기초지식
+                    </td>
+                    <td>
+                        10
+                    </td>
+                    <td>
+                        3
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        요양보호 각론
+                    </td>
+                    <td>
+                        기본 요양보호 기술
+                    </td>
+                    <td>
+                        4
+                    </td>
+                    <td>
+                        4
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        요양보호 업무 기록 및 보고
+                    </td>
+                    <td>
+                        2
+                    </td>
+                    <td>
 
-  </body>
+                    </td>
+                </tr>
+                <tr class="table-border-b">
+                    <td>
+                        특수요양보호각론
+                    </td>
+                    <td>
+                        치매 요양보호 기술
+                    </td>
+                    <td>
+                        3
+                    </td>
+                    <td>
+                        3
+                    </td>
+                </tr>
+                <tr class="table-border-b">
+                    <td class="dtl-fonts-color-set1">
+                        현장실습(08시간)
+                    </td>
+                    <td colspan="2">
+                        노인요양시설 또는 재가노인복지시설 실습
+                    </td>
+                    <td colspan="2">
+                        8
+                    </td>
+                </tr>
+
+                <tr class="dtl-table-back2">
+                    <td colspan="3" class="dtl-fonts-color-set1">
+                        총시간
+                    </td>
+                    <td colspan="2" class="dtl-fonts-color-set1">
+                        50
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- /.table-responsive -->
+    </div>
+    <!--사회복지사 교육과정 Table end-->
+
+    <!--물리치료사ㆍ작업치료사ㆍ간호조무사 Table title-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 table-line">
+                <div></div>
+            </div>
+            <div class="col-md-12">
+                <p class="table-title1">물리치료사ㆍ작업치료사ㆍ간호조무사</p>
+            </div>
+            <div class="col-md-12">
+                <p class="table-sub1">(단위&nbsp:&nbsp&nbsp&nbsp시간)</p>
+            </div>
+        </div>
+    </div>
+    <!--물리치료사ㆍ작업치료사ㆍ간호조무사 Table end-->
+
+    <!--물리치료사ㆍ작업치료사ㆍ간호조무사 Table-->
+    <div class="container table-end-set">
+        <!-- /.table-responsive -->
+        <div class="table-responsive">
+            <table class="table table-bordered hcc-table-set1">
+                <thead>
+                <tr>
+                    <th>
+                        구분
+                    </th>
+                    <th>
+                        과목
+                    </th>
+                    <th>
+                        교육내용
+                    </th>
+                    <th class="table1-col-set2">
+                        이론
+                    </th>
+                    <th class="table1-col-set2">
+                        실기
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td rowspan="7" class="dtl-fonts-color-set1 table-border-b">
+                        이론강의(31시간)<br>실기연습(11시간)
+                    </td>
+                    <td rowspan="3">
+                        요양보호개론
+                    </td>
+                    <td >
+                        요양보호 관련 제도 및 서비스
+                    </td>
+                    <td>
+                        5
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        요양보호 업무의 목적 및 기능
+                    </td>
+                    <td>
+                        2
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        요양보호사의 직업윤리와 자세
+                    </td>
+                    <td>
+                        8
+                    </td>
+                    <td>
+                        4
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        요양보호 관련 기초지식
+                    </td>
+                    <td>
+                        의학적ㆍ간호학적 기초지식
+                    </td>
+                    <td>
+                        2
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        요양보호 각론
+                    </td>
+                    <td>
+                        의사소통 및 여가지원
+                    </td>
+                    <td>
+                        5
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        서비스 이용 지원
+                    </td>
+                    <td>
+                        3
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr class="table-border-b">
+                    <td>
+                        특수요양보호각론
+                    </td>
+                    <td>
+                        치매 요양보호 기술
+                    </td>
+                    <td>
+                        3
+                    </td>
+                    <td>
+                        3
+                    </td>
+                </tr>
+                <tr class="table-border-b">
+                    <td class="dtl-fonts-color-set1">
+                        현장실습(08시간)
+                    </td>
+                    <td colspan="2">
+                        노인요양시설 또는 재가노인복지시설 실습
+                    </td>
+                    <td colspan="2">
+                        8
+                    </td>
+                </tr>
+
+                <tr class="dtl-table-back2">
+                    <td colspan="3" class="dtl-fonts-color-set1">
+                        총시간
+                    </td>
+                    <td colspan="2" class="dtl-fonts-color-set1">
+                        50
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- /.table-responsive -->
+    </div>
+    <!--물리치료사ㆍ작업치료사ㆍ간호조무사 Table end-->
+</th:block>
 </html>

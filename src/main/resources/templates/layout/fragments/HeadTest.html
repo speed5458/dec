@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lagn="ko" xmlns:th="http://www.thymeleaf.org">
+
+<!-- Footer -->
+<th:block th:fragment="HeadFragment">
+
+
+    <!--header start-->
+    <header class="head-section">
+        <div class="header-popup popup-wide">
+            <div class="col-lg-12 container">
+                <div class="copyright top-banner-box">
+                    <p class="copyright-detail-fonts">드림요양보호사교육원이궁금하시다면 온라인 상담신청하세요.</p>
+                    <button class="btn btn-default btn-lg top-popup-btn"><a href="Online-Consulting.html">상담예약하기</a></button>
+                    <a href="#" onclick="popup_close();" class="popup-close">
+                        <img src="img/popup-close-img.png">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="header-popup popup-small">
+            <div class="col-lg-12">
+                <div class="copyright top-banner-box">
+                    <p class="copyright-detail-fonts popup-small-fonts">드림요양보호사교육원이 궁금하시다면 온라인 상담신청하세요.</p>
+                    <a href="#" onclick="popup_close();" class="popup-close small-popup-close">
+                        <img src="img/popup-close-img.png">
+                    </a>
+                </div>
+            </div>
+            <button class="btn btn-default btn-lg top-popup-btn small-popup-btn"><a href="Online-Consulting.html">상담예약하기</a></button>
+        </div>
+
+        <div class="header-popup popup-small2">
+            <div class="col-lg-12">
+                <div class="copyright top-banner-box">
+                    <div>드림요양보호사교육원이 <br>궁금하시다면<br>온라인 상담신청하세요.</div>
+                    <a href="#" onclick="popup_close();" class="popup-close small-popup-close2">
+                        <img src="img/popup-close-img.png">
+                    </a>
+                </div>
+            </div>
+            <button class="btn btn-default btn-lg top-popup-btn small-popup-btn"><a href="Online-Consulting.html">상담예약하기</a></button>
+        </div>
+
+
+
+
+        <div class="navbar navbar-default navbar-static-top container custom-nav">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">
+                    <img src="img/logo3.png" ></img>
+                </a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
+                                "dropdown" data-toggle="dropdown" href="index.html">교육원안내 <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="welcomeceo">인사말</a>
+                            </li>
+                            <li>
+                                <a href="contacts">오시는길</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
+                                "dropdown" data-toggle="dropdown" href="#">교육과정안내 <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="detailacademy">국가자격증취득-교육안내</a>
+                            </li>
+                            <li>
+                                <a href="local">국민내일배움카드-내국인</a>
+                            </li>
+                            <li>
+                                <a href="foreigner">국민내일배움카드-외국인</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
+                                "dropdown" data-toggle="dropdown" href="#">드림재가복지센터 <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="detailpeople">방문요양서비스</a>
+                            </li>
+                            <li>
+                                <a href="detailbath">방문목욕서비스</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
+                                "dropdown" data-toggle="dropdown" href="#">커뮤니티 <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="photo">드림스토리</a>
+                            </li>
+                            <li>
+                                <a href="news">뉴스</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="onlineconsulting">온라인상담</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--header end-->
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/hover-dropdown.js"></script>
+    <script defer src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="assets/bxslider/jquery.bxslider.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.js"></script>
+
+
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/link-hover.js"></script>
+
+
+    <!--common script for all pages-->
+    <script src="js/common-scripts.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+
+
+    <script>
+    $(document).ready(function() {
+
+        $("#owl-demo").owlCarousel({
+            items : 4
+        });
+
+      });
+    new WOW().init();
+  </script>
+    <script>
+      function popup_close(){
+        $('.header-popup').css('display','none')
+
+        }
+    </script>
+</th:block>
+
+</html>

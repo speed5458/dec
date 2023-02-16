@@ -22,8 +22,6 @@ jQuery('ul.superfish').superfish();
 new WOW().init();
 });
 jQuery(document).ready(function() {
-
-
         $('.bxslider1').bxSlider({
           minSlides: 5,
           maxSlides: 6,
@@ -36,8 +34,7 @@ jQuery(document).ready(function() {
           nextText: 'Next →',
           prevText: '← Prev'
         });
-
-      });
+});
 
 
 $(function() {

@@ -1,86 +1,11 @@
 
-@font-face {
-    font-family: 'KoPubBatangLight';
-    src: url('../fonts/KoPubBatangLight.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'NanumPen';
-    src: url('../fonts/NanumPen.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'NanumSquareB';
-    src: url('../fonts/NanumSquareB.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'NanumSquareR';
-    src: url('../fonts/NanumSquareR.ttf') format('truetype');
-}
 body{
     font-family: 'NanumSquareR' !important;
 }
-/* 상단 배너 */
-.copyright{
-    padding-top: 25px;
-}
-.top-banner{
-    
-}
-.popup-small{
-    display: none;
-} 
-.popup-small2{
-    display: none;
-}
-.head-section{
-    top: 0;
-    position: sticky;
-    z-index: 10000;
-    background-color: #FFFFFF;
-}
-.header-popup{
-    background-color: #f37020;
-    min-height: 110px;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 10000;
-}
-.popup-close{
-    color: #FFFFFF;
-    margin-left: auto;
-    margin-top: 10px;
-}
-.top-popup-btn{
-    background-color: #f37020 !important;
-    color: #FFFFFF !important;
-    border-radius: 30px;
-    padding: 10px 33px;
-    margin-top: 10px;
-    margin-left: 50px;
-}
-.top-popup-btn a{
-    font-size: 21px;
-    color: #FFFFFF !important;
-}
-.popup-wide{
-    display: flex;
-}
-.copyright-detail-fonts{
-    font-size: 28px;
-    padding-left: 50px;
-    padding-top: 17px;
-    font-weight: 700;
-}
-/* 상단 배너 */
 
 
-.footer-btn-detail a{
-    color: #FFFFFF;
-}
-.navbar-brand img{
-    width: 250px;
-}
+
+
 
 .da-slide-font1{
 	font-size: 85px;
@@ -265,42 +190,6 @@ body{
     text-align:center !important ;
 }
 
-/* footer셋팅 */
-.footer2{
-    display: none;
-}
-.footer-fonts{
-    font-weight: 500;
-}
-
-.footer-set1{
-    margin-bottom: 20px !important;
-}
-.footer-set2{
-    margin-bottom: 5px !important;
-}
-
-
-.footer-btn-detail{
-    background-color: #f37020 !important;
-    color: #FFFFFF !important;
-    margin-left: auto;
-    border-radius: 30px;
-    padding: 10px 33px;
-}
-.footer-img-set1{
-    text-align: right;
-}
-.footer-img-set2{
-    width: 350px;
-    height: 70px;
-    margin-top: 50px;
-}
-/* footer2 */
-.footer2{
-    background-color: #343a39;
-    color: #FFFFFF;
-}
 .view-tenth img{
     width: 100% !important;
     height: 100% !important;

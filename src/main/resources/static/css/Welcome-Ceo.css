@@ -1,18 +1,9 @@
-@font-face {
-    font-family: 'KoPubBatangLight';
-    src: url('../fonts/KoPubBatangLight.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'NanumPen';
-    src: url('../fonts/NanumPen.ttf') format('truetype');
-}
 
 .topmenu-set li a{
     color: #ffffff !important;
 }
 body{
-    font-family: 'NanumSquare', sans-serif !important;
+    font-family: 'NanumSquareR', sans-serif !important;
 }
 
 .intro-main-box{
@@ -20,6 +11,7 @@ body{
 }
 
 .welcome-p p{
+    font-family: 'NanumSquareR', sans-serif !important;
     padding: 20px;
     text-align: center;
     font-size: 25px;
