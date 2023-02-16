@@ -1,0 +1,166 @@
+
+.topmenu-set li a{
+    color: #ffffff !important;
+}
+/* 소개글 CSS */
+.counsulting-p-set1{
+    font-size: 25px;
+    padding: 3px;
+    text-align: center;
+    color: #76B042;
+}
+.main-box{
+    border: 0.5px solid #ffffff; ;
+    border-radius: 5px;
+    height: 450px;
+}
+
+.main-box-transfer{
+    padding-top: 20px;
+    min-height: 450px;
+}
+
+.main-txt{
+    background-color: #76B042;
+    color:  #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 13px;
+    
+}
+.main-box-set{
+    padding: 40px;
+    padding-bottom: 100px;
+}
+
+/* 대중교토 dtl박스 */
+.contact-info{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+/* 영업시간 박스 */
+.contact-info3{
+    border: 1px solid #76B042;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+/* 지하철 아이콘 */
+.ico-set1{
+    color: #1468a1;
+    font-size: 55px;
+}
+/* 달력 */
+.ico-set2{
+    color: #76B042;
+    font-size: 65px;
+}
+/* 버스 */
+.ico-set3{
+    color: #1468a1;
+    font-size: 55px;
+    padding-top: 5px;
+}
+
+
+
+/* 아이콘 div박스 */
+.ico-box{
+    text-align: center;
+    width: 20%;
+    padding-top: 13px;
+}
+
+.contact-info-dtl-box{
+    padding-left: 20px;
+}
+
+/* 지하철정보 */
+.contact-info img{
+    vertical-align: top;
+    margin-top: 3px;
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+
+.contact-info-subway span{
+    color: #0097d7;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.contact-info-subway p{
+    padding-left: 38px;
+    font-size: 18px;
+}
+
+/* 버스정보 */
+
+
+.contact-info-bus span:nth-child(2){
+    color: #44af6d;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.contact-info-bus span:nth-child(5){
+    color: #cf1414;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.contact-info-bus p{
+    padding-left: 38px;
+    font-size: 18px;
+}
+
+
+/* 영업시간 테이블 셋팅 */
+.info-box-table table{
+    color: #76B042;
+}
+.info-box-table table tr td{
+    font-size: 15px;
+    padding: 5px;
+}
+.info-box-table table tr td:nth-child(1){
+    font-weight: 200 ;
+}
+/* 영업시간 div */
+.contact-info3 div:nth-child(2){
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    color: #76B042;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+@media (max-width: 768px) {
+    .contact-info3{
+        display: block;
+        text-align: -webkit-center;
+    }
+    .ico-box{
+        width: 100%;
+    }
+    .contact-info3 div:nth-child(2){
+        width: 100%;
+    }
+
+}
+
+@media(max-width:360px){
+
+}
+
+@media(max-width:280px){
+}
