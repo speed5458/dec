@@ -211,12 +211,6 @@ body{
     #contact-box{
         text-align: center;
     }
-    .col-lg-6 h3 a{
-        font-size: 20px;
-    }
-    .col-lg-6 h3 a{
-        font-size: 30px;
-    }
     .popup-wide{
         display: none;
     }
@@ -256,10 +250,6 @@ body{
 
 
 @media (max-width: 768px) {
-    .col-lg-6 h3 a{
-        font-size: 25px;
-    }
-
     .news-box{
         height: 500px;
     }
@@ -291,13 +281,23 @@ body{
     
 }
 
+@media (max-width: 740px) {
+    .contact-num a{
+        font-size : 25px !important;
+    }
+}
+
+@media (max-width: 590px) {
+    .contact-email-h3 a{
+        font-size : 18px !important;
+    }
+}
+
 @media(max-width:480px){
     .news-box{
         height: 600px;
     }
-    .col-lg-6 h3 a{
-        font-size: 21px !important;
-    }
+
     .popup-wide{
         display: block;
     }
