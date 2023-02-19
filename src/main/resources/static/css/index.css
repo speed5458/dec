@@ -208,6 +208,7 @@ body{
 }
 
 @media (max-width:1200px){
+
     #contact-box{
         text-align: center;
     }
@@ -246,8 +247,18 @@ body{
     .address p {
         text-align: center !important;
     }
+
+    .news-box{
+           margin-top : 30px
+        }
+
 }
 
+@media (max-width : 992px){
+    .round-fifty {
+        margin-left : 46% !important;
+    }
+}
 
 @media (max-width: 768px) {
     .news-box{
@@ -277,6 +288,9 @@ body{
     }
     .top-banner-box{
         justify-content: center;
+    }
+    .round-fifty {
+        margin-left : 42% !important;
     }
     
 }
