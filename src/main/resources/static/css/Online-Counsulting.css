@@ -28,7 +28,9 @@
     border-radius: 5px;
     font-size: 25px;
     padding: 10px;
-    
+}
+.main-txt a{
+    color : #ffffff !important;
 }
 .main-box-set{
     padding: 33px;
@@ -133,4 +135,8 @@
     padding-left: 18px;
     margin-top: 15px;
     width: 90%;
+}
+
+.end-set{
+    margin-bottom: 80px ;
 }

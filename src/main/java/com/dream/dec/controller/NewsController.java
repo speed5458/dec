@@ -8,9 +8,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 @RequiredArgsConstructor
 public class NewsController {
 
-    @GetMapping(value = "/local")
+
+    @GetMapping(value = "/news")
     public String Home() {
-        return "page/Introduce-Card-Local";
+        return "page/news";
     }
 
 

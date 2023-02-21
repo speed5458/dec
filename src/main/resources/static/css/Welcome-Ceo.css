@@ -57,3 +57,37 @@ body{
 .sign-sub{
     font-size: 20px;
 }
+
+
+
+@media (max-width : 1200px){
+    .intro-p{
+        padding-left: 220px;
+    }
+    .ceo-img-set{
+        text-align : center;
+    }
+    .ceo-img-set img{
+        width: 60% ;
+        height: 60% ;
+    }
+
+}
+
+@media (max-width : 990px){
+    .intro-p{
+        padding-left: 88px;
+    }
+    .sign{
+        padding-right :34px;
+    }
+}
+
+@media (max-width : 767px){
+    .intro-p{
+        padding-left: 33px;
+    }
+    .sign{
+        padding-right :0px;
+    }
+}
