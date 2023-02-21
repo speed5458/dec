@@ -13,11 +13,11 @@
     border: 1px solid #666666 ;
     height: 30px;
     border-radius: 5px;
-    height: 450px;
+    height: 520px;
 }
 .main-box2{
     border-radius: 5px;
-    height: 450px;
+    height: 520px;
 }
 
 .main-txt{
@@ -134,3 +134,124 @@
     margin-top: 15px;
     width: 90%;
 }
+
+.end-set{
+    margin-bottom: 80px;
+}
+
+.breadcrumbs{
+    margin-bottom: 80px;
+}
+
+.main-txt a{
+    color : #ffffff !important;
+}
+
+.privacy-agree td:nth-child(2) label{
+    font-weight: 900;
+    font-size: 17px;
+}
+
+.privacy-agree td:nth-child(2) label input{
+    width: auto !important;
+}
+
+.privacy-agree td:nth-child(2) div:nth-child(2){
+    font-size: 11px;
+    font-weight: 900;
+    padding-left: 19px;
+}
+.checkbox{
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+
+.modal-custom{
+    display: none;
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    box-shadow: 0px 76px 4px 0px rgba(173, 171, 172, 1);
+    /* 임시 지정 */
+    width: 650px;
+    height: 180px;
+}
+.modal-custom > div:nth-child(1){
+    display: flex;
+    height: 50px;
+    background-color: #cccccc;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-right: 25px;
+    font-size: 17px;
+}
+.modal-custom > div:nth-child(2){
+    background-color: #f8f8f8;
+    padding: 15px;
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+.privacy-ps{
+    padding-top: 10px;
+}
+
+
+
+@media (max-width:1200px){
+   .info-number-box{
+    display: table-cell;
+   }
+   .info-address-box{
+    display: table-cell;
+   }
+}
+
+@media (max-width:600px){
+    .consult-info-box-dtl{
+        min-width: auto;
+        min-height: auto;
+    }
+    .consult-info-box-table{
+        font-size: 14px;
+    }
+    .info-number-box{
+        font-size: 14px;
+    }
+    .info-address-box{
+        font-size: 14px;
+    }
+    .main-box{
+        height: 470px;
+    }
+    .main-box2{
+        height: 300px;
+    }
+    .consult-table-set1 tr td textarea {
+        min-height: 150px;
+    }
+ }
+
+ @media (max-width:565px){
+    
+    .consult-table-set1 tr td textarea {
+        min-height: 130px;
+    }
+ }
+
+ @media (max-width:400px){
+    
+    .consult-table-set1 tr td textarea {
+        min-height: 120px;
+    }
+ }
+
+ @media (max-width:314px){
+    .main-box{
+        height: 540px;
+    }
+ }
