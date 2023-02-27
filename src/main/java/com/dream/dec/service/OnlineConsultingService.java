@@ -20,7 +20,7 @@ public class OnlineConsultingService {
     public int createMessage(OnlineConsultingDTO dto) throws Exception{
 
         //받는사람 이메일 수정 (dreamedu0191)
-        String toEmail = "eunhyn12@naver.com";
+        String toEmail = "dreamedu0191@naver.com";
 
         MimeMessage message = javaMailSender.createMimeMessage();
         //message.setTo(testEmail);
