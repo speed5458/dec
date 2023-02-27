@@ -4,23 +4,17 @@
       layout:decorate="~{layout/layout}">
 
 <th:block layout:fragment="content">
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/theme.css" rel="stylesheet">
-    <link href="css/bootstrap-reset.css" rel="stylesheet">
     <!--external css-->
     <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/flexslider.css"/>
-    <link href="assets/bxslider/jquery.bxslider.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="css/animate.css">
-    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-
-
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/Online-Counsulting.css" rel="stylesheet">
     <link href="css/style-responsive.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/waitMe.css">
+    <script src="js/waitMe.js"></script>
+    <script type="text/javascript" src="js/OnlineConsulting.js"></script>
+
 
     <!--breadcrumbs start-->
     <div class="breadcrumbs">
@@ -67,15 +61,15 @@
                         <table class="consult-table-set1">
                             <tr>
                                 <td>이&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp름</td>
-                                <td><input id="consult-desc" placeholder="" type="text"></td>
+                                <td><input id="userNm" placeholder="" type="text"></td>
                             </tr>
                             <tr>
                                 <td>연&nbsp&nbsp락&nbsp&nbsp처</td>
-                                <td><input id="consult-desc" placeholder="" type="text"></td>
+                                <td><input id="userHp" placeholder="" type="text"></td>
                             </tr>
                             <tr>
                                 <td class="desc-textarea">상담내용</td>
-                                <td><textarea id="consult-desc"placeholder="" type="text"></textarea></td>
+                                <td><textarea id="userDesc"placeholder="" type="text"></textarea></td>
                             </tr>
                             <tr class="privacy-agree">
                                 <td></td>
@@ -93,7 +87,7 @@
                             <tr>
                                 <td></td>
                                 <td>
-                                    <a class="btn btn-purchase btn-consult">전송하기</a>
+                                    <a class="btn btn-purchase btn-consult" onclick="emailSend();">전송하기</a>
                                 </td>
                             </tr>
                         </table>
