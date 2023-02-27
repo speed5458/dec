@@ -38,7 +38,7 @@ function run_waitMe(el, num, effect){
         color: '#fff',
         maxSize: maxSize,
         waitTime: -1,
-        source: 'img.svg',
+        source: 'img/waitMe-img.svg',
         textPos: textPos,
         fontSize: fontSize,
         onClose: function(el) {}
@@ -76,33 +76,17 @@ function emailSend(){
     if(fn_emailSend_Valid()){
         return;
     }
+    run_waitMe($('body'), 1, 'stretch');
     isEmailSend =true;
     var param = {
               "userNm" : $("#userNm").val().trim() ,
               "userHp" : $("#userHp").val().trim() ,
               "userDesc" : $("#userDesc").val() ,
      };
-
-     $('body').waitMe({
-     effect : 'bounce',
-     text : '',
-     bg : rgba(255,255,255,0.7),
-     color : #000,
-     maxSize : '',
-     waitTime : -1,
-     textPos : 'vertical',
-     fontSize : '',
-     source : '',
-     onClose : function() {}
-     });
-
-
-
     $.ajax({
         type:"get",
         url:"/onlineconsulting/mail" ,
         data: param,
-        async: false,
         success(data){
             if(data > 0){
                 alert("문의가 접수되었습니다. 빠른시일내에 답변드리겟습니다.");
@@ -120,3 +104,12 @@ function emailSend(){
       });
 }
 
+
+function privacy_popup_close(){
+        $('.modal-custom').css('display','none')
+
+        }
+        function privacy_popup_open(){
+        $('.modal-custom').css('display','block')
+
+        }

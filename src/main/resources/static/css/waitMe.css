@@ -215,16 +215,7 @@ body.waitMe_body .waitMe_container.text > div {width:100%;top:45%;text-align:cen
 
 /* progressBar */
 .waitMe_container .waitMe_progress.progressBar {width:200px;height:20px;margin:auto;background:rgba(0,0,0,.1);padding:5px;border-radius:20px;line-height:0;max-width:100%}
-.waitMe_container .waitMe_progress.progressBar > div {
-  width:100%;
-  height:100%;
-  overflow:hidden;
-  border-radius:20px;
-  background-size:50px 50px;
-  box-shadow:inset 0 2px 9px rgba(255,255,255,.3), inset 0 -2px 6px rgba(0,0,0,.4);
-  background-image:linear-gradient(-45deg, rgba(240,240,240,.4) 26%, transparent 25%, transparent 51%, rgba(240,240,240,.4) 50%, rgba(240,240,240,.4) 76%, transparent 75%, transparent);
-  animation:progressBar 2s linear infinite
-}
+.waitMe_container .waitMe_progress.progressBar > div {width:100%;height:100%;overflow:hidden;border-radius:20px;background-size:50px 50px;box-shadow:inset 0 2px 9px rgba(255,255,255,.3), inset 0 -2px 6px rgba(0,0,0,.4);background-image:linear-gradient(-45deg, rgba(240,240,240,.4) 26%, transparent 25%, transparent 51%, rgba(240,240,240,.4) 50%, rgba(240,240,240,.4) 76%, transparent 75%, transparent);animation:progressBar 2s linear infinite}
 @keyframes progressBar {
   0% {background-position:0 0}
   100% {background-position:50px 50px}
