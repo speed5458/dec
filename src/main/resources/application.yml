@@ -1,6 +1,20 @@
 #ServerPort
 server :
   port : 10721
+
+#gmail Setting
+Spring :
+    mail :
+      host : smtp.gmail.com
+      port : 587
+      username : speed5458@gmail.com
+      password : xwqcfuyyggkzlsit
+      properties :
+              mail :
+                smtp :
+                  auth : true
+                  starttls :
+                      enable : true
   
 # Datasource Settings
 #spring:
