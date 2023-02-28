@@ -25,7 +25,7 @@ public class OnlineConsultingService {
         MimeMessage message = javaMailSender.createMimeMessage();
         //message.setTo(testEmail);
         message.addRecipients(Message.RecipientType.TO, toEmail);
-        message.setSubject(dto.getUserNm() + "님의 문의 (" + LocalDateTime.now() + ")");
+        message.setSubject(dto.getUserNm() + "님의 문의 (" + LocalDateTime.now() + ")", "utf-8");
 
         String msgg="";
         msgg+= "<div style='margin:100px;'>";
